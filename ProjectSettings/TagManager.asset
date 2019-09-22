@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - StartSpline
+  - GameManager
+  - Camera
+  - UIRoot
+  - HUD
+  - PlayItemManager
+  - Tutorial
+  - TutorialLobby
+  - WaitServerResponse
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Road
+  - Car
+  - Particle
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Particle
+    uniqueID: 2669748999
+    locked: 0
+  - name: UI
+    uniqueID: 1323353049
+    locked: 0

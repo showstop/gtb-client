@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4427b52d2cb669468a83e9b4bcccacb, type: 3}
+  m_Name: vehicles
+  m_EditorClassIdentifier: 
+  param:
+  - ID: 11100100
+    Name: minicooper
+    SKILL01: 32000030
+    SKILL02: 33000080
+    SKILL03: 0
+    ACC: 24
+    SPD: 34
+    POW: 24
+    HP: 104
+    BodyModel: model/minicooper_body
+    TireModel: model/minicooper_tire
+    IntegratedMat: 0
+    BodyMaterial: material/minicooper_body
+    TireMaterial: material/minicooper_tire
+    WindowMat: material/window
+    MetalMat: material/metal
+  - ID: 11100200
+    Name: buggy
+    SKILL01: 32000010
+    SKILL02: 32000110
+    SKILL03: 0
+    ACC: 26
+    SPD: 36
+    POW: 22
+    HP: 102
+    BodyModel: model/buggy_body
+    TireModel: model/buggy_tire
+    IntegratedMat: 1
+    BodyMaterial: material/buggy_body
+    TireMaterial: material/buggy_body
+    WindowMat: 
+    MetalMat: 
+  - ID: 11100300
+    Name: turbin
+    SKILL01: 33000030
+    SKILL02: 33000090
+    SKILL03: 0
+    ACC: 22
+    SPD: 32
+    POW: 26
+    HP: 106
+    BodyModel: model/turbin_body
+    TireModel: model/turbin_tire
+    IntegratedMat: 1
+    BodyMaterial: material/turbin_body
+    TireMaterial: material/turbin_body
+    WindowMat: 
+    MetalMat: 
+  - ID: 11200100
+    Name: supark
+    SKILL01: 33000050
+    SKILL02: 32000020
+    SKILL03: 33000270
+    ACC: 26
+    SPD: 36
+    POW: 26
+    HP: 106
+    BodyModel: model/supark_body
+    TireModel: model/supark_tire
+    IntegratedMat: 0
+    BodyMaterial: material/supark_body
+    TireMaterial: material/supark_tire
+    WindowMat: material/window
+    MetalMat: material/metal
+  - ID: 11200200
+    Name: amber
+    SKILL01: 33000190
+    SKILL02: 33000100
+    SKILL03: 32000040
+    ACC: 27
+    SPD: 35
+    POW: 25
+    HP: 107
+    BodyModel: model/amber_body
+    TireModel: model/amber_tire
+    IntegratedMat: 0
+    BodyMaterial: material/amber_body
+    TireMaterial: material/amber_tire
+    WindowMat: material/window
+    MetalMat: material/metal
+  - ID: 11200300
+    Name: swagger
+    SKILL01: 33000210
+    SKILL02: 33000180
+    SKILL03: 32000100
+    ACC: 25
+    SPD: 35
+    POW: 27
+    HP: 107
+    BodyModel: model/swagger_body
+    TireModel: model/swagger_tire
+    IntegratedMat: 0
+    BodyMaterial: material/swagger_body
+    TireMaterial: material/swagger_tire
+    WindowMat: material/window
+    MetalMat: material/metal
+  - ID: 11200400
+    Name: poly
+    SKILL01: 33000150
+    SKILL02: 33000220
+    SKILL03: 33000130
+    ACC: 27
+    SPD: 39
+    POW: 24
+    HP: 104
+    BodyModel: model/poly_body
+    TireModel: model/poly_tire
+    IntegratedMat: 0
+    BodyMaterial: material/poly_body
+    TireMaterial: material/poly_tire
+    WindowMat: material/window
+    MetalMat: material/metal
+  - ID: 11300100
+    Name: closer
+    SKILL01: 33000040
+    SKILL02: 33000140
+    SKILL03: 32000080
+    ACC: 29
+    SPD: 40
+    POW: 30
+    HP: 111
+    BodyModel: model/closer_body
+    TireModel: model/closer_tire
+    IntegratedMat: 1
+    BodyMaterial: material/closer_body
+    TireMaterial: material/closer_body
+    WindowMat: 
+    MetalMat: 
+  - ID: 11300200
+    Name: bruner
+    SKILL01: 33000010
+    SKILL02: 33000170
+    SKILL03: 32000070
+    ACC: 28
+    SPD: 38
+    POW: 32
+    HP: 112
+    BodyModel: model/bruner_body
+    TireModel: model/bruner_tire
+    IntegratedMat: 1
+    BodyMaterial: material/bruner_body
+    TireMaterial: material/bruner_body
+    WindowMat: 
+    MetalMat: 
+  - ID: 11300300
+    Name: shark
+    SKILL01: 33000070
+    SKILL02: 32000090
+    SKILL03: 33000230
+    ACC: 29
+    SPD: 41
+    POW: 29
+    HP: 111
+    BodyModel: model/shark_body
+    TireModel: model/shark_tire
+    IntegratedMat: 1
+    BodyMaterial: material/shark_body
+    TireMaterial: material/shark_body
+    WindowMat: 
+    MetalMat: 
+  - ID: 11300400
+    Name: collin
+    SKILL01: 32000050
+    SKILL02: 33000240
+    SKILL03: 33000160
+    ACC: 27
+    SPD: 41
+    POW: 31
+    HP: 111
+    BodyModel: model/collin_body
+    TireModel: model/collin_tire
+    IntegratedMat: 1
+    BodyMaterial: material/collin_body
+    TireMaterial: material/collin_body
+    WindowMat: 
+    MetalMat: 
+  - ID: 11300500
+    Name: loco
+    SKILL01: 33000020
+    SKILL02: 32000060
+    SKILL03: 33000280
+    ACC: 29
+    SPD: 40
+    POW: 30
+    HP: 110
+    BodyModel: model/loco_body
+    TireModel: model/loco_tire
+    IntegratedMat: 1
+    BodyMaterial: material/loco_body
+    TireMaterial: material/loco_body
+    WindowMat: 
+    MetalMat: 
+  - ID: 11300600
+    Name: mighty
+    SKILL01: 33000110
+    SKILL02: 33000200
+    SKILL03: 33000120
+    ACC: 30
+    SPD: 40
+    POW: 30
+    HP: 110
+    BodyModel: model/mighty_body
+    TireModel: model/mighty_tire
+    IntegratedMat: 1
+    BodyMaterial: material/mighty_body
+    TireMaterial: material/mighty_body
+    WindowMat: 
+    MetalMat: 
+  - ID: 11400100
+    Name: formula
+    SKILL01: 33000060
+    SKILL02: 33000260
+    SKILL03: 33000250
+    ACC: 36
+    SPD: 48
+    POW: 28
+    HP: 106
+    BodyModel: model/formula_body
+    TireModel: model/formula_tire
+    IntegratedMat: 0
+    BodyMaterial: material/formula_body
+    TireMaterial: material/formula_tire
+    WindowMat: material/window
+    MetalMat: material/metal

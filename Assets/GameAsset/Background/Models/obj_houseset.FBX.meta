@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: 286e5c911b7e3454da2a71d81d4a1a83
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: obj_house_r
+    100002: obj_house_r001
+    100004: obj_house_r002
+    100006: //RootNode
+    100008: obj_tree_002
+    100010: obj_tree_003
+    100012: obj_tree_004
+    100014: obj_tree_005
+    100016: obj_tree_006
+    100018: obj_tree_01
+    100020: obj_block_B_G
+    400000: obj_house_r
+    400002: obj_house_r001
+    400004: obj_house_r002
+    400006: //RootNode
+    400008: obj_tree_002
+    400010: obj_tree_003
+    400012: obj_tree_004
+    400014: obj_tree_005
+    400016: obj_tree_006
+    400018: obj_tree_01
+    400020: obj_block_B_G
+    2300000: obj_house_r
+    2300002: obj_house_r001
+    2300004: obj_house_r002
+    2300006: //RootNode
+    2300008: obj_tree_002
+    2300010: obj_tree_003
+    2300012: obj_tree_004
+    2300014: obj_tree_005
+    2300016: obj_tree_006
+    2300018: obj_tree_01
+    2300020: obj_block_B_G
+    3300000: obj_house_r
+    3300002: obj_house_r001
+    3300004: obj_house_r002
+    3300006: //RootNode
+    3300008: obj_tree_002
+    3300010: obj_tree_003
+    3300012: obj_tree_004
+    3300014: obj_tree_005
+    3300016: obj_tree_006
+    3300018: obj_tree_01
+    3300020: obj_block_B_G
+    4300000: obj_block_B_G
+    4300002: obj_house_r
+    4300004: obj_house_r001
+    4300006: obj_house_r002
+    4300008: obj_tree_01
+    4300010: obj_tree_002
+    4300012: obj_tree_003
+    4300014: obj_tree_004
+    4300016: obj_tree_005
+    4300018: obj_tree_006
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,714 @@
+﻿Flag = Flag-KR
+Language = Français
+English = English
+French = Français
+Info = Par exemple la localisation
+Sound = Son
+Music = Musique
+Desc = La localisation française
+Paragraph = Cet exemple montre comment implémenter la localisation en utilisant NGUI. Pour localiser un widget, il suffit d'y attacher le script [000000]UILocalize[-]. Ce script localisera le sprite si c'est un [000000]UISprite[-], ou le texte si c'est un [000000]UILabel[-]. Si vous voulez localiser autre chose, il suffit d'implémenter la fonction [000000]OnLocalize[-]. Dans tous les cas, les données sont définies par l'intermédiaire de documents texte spécifiés dans le script [000000]Localization[-] qui doit être présent dans la scène.
+
+@CopyRight=(c)2014 Yippee Planet Co., Ltd All Rights Reserved.
+@MainTitle = GoGo 고고싱
+@SingleGame = 싱글게임
+@MultiGame = 멀티게임
+@Garage = 내차고
+@Close = 닫기
+@Ok=확인
+@Continue=계속하기
+@Consent=동의
+@OkSpace2=확  인
+@Yes=예
+@No=아니오
+@Confirm=확인
+@Exit=나가기
+@Cancel=취소
+@Return=돌아가기
+@Invite=초대
+@Charge=충전
+@InputComplete=입력완료
+@MailPopupTitle = 메시지
+@MailPopupReceive = 받기
+@MailPopupView = 보기
+@MailPopupDel = 삭제
+@Speed=속도
+@Stiffness=강도
+@Boost=부스트
+@Acceleration=가속도
+@HP=HP
+@Body=미니카
+@Motor=모터
+@Tire=타이어
+@Point=포인트
+@ItemDetailInfo=미니카 상세정보
+@ManualChange=조작변경
+@RandomChange=렌덤변경
+@Info=정보
+@Buy=구매
+@BuyTitle=구매하기
+@Sell=판매
+@Enchant=강화
+@EnchantEnd=강화완료!
+@Attach=장착
+@Message=메시지
+@RandomChange=렌덤변경
+@Playing=진행중
+@Medal_1=골드
+@Medal_2=실버
+@Medal_3=브론즈
+@GetMedal=메달 획득
+@GetMedalFail=메달 획득 실패
+@ItemStrengthen=레벨업
+@AccelProp=가속도
+@SpeedProp=속도
+@PowerProp=강도
+@GameMoney=골드
+@Cash=다이아
+@Level=레벨
+@LevelEnglish=Lv.
+@Bonus=보너스
+@MonetaryUnitKRW=원
+@MonetaryUnitUSD=$
+@Free=무료
+@Logout=로그아웃
+@AccessTerms=이용약관
+@Memberleave=탈퇴하기
+@MembershipPartner=고객센터
+@MembershipNumber=카카오회원번호
+@GameVersion=게임버전
+@BGM=배경음
+@SoundEffect=효과음
+@PushAlarm=푸시알림
+@ProfileOpen=사진 공개
+@cubbyhole=보관함
+@AbilityBuy=특성 구매
+@AttachList=장착리스트
+@SlotOpen=슬롯열기
+@SlotBuy=슬롯구매
+@AbilityEquip=장착하기
+@AbilityChange=특성교체
+@FriendInviteTitle=초대하기
+@CarAbility=차량능력
+@Title_AbilityToBuy=특성구매함
+@Title_AbilityToStorage=특성보관함
+@Title_AbilityEnchant=특성강화
+@Title_PersonalInformation=개인정보 취급방침 및 이용약관
+@SubTitle_TermsOfService=서비스 이용약관
+@SubTitle_PrivacyPolicy=개인정보 취급방침
+@TheNumberOfPeople=명
+@Coupon=쿠폰입력
+
+#팝업 확인
+@ItemStrengthenConfirm=를 사용하여 {0} 미니카를 강화하시겠습니까?
+@CharStrengthnConfirm=를 사용하여 {0} 특성을 강화하시겠습니까?
+@PartsPropChangeSuccess=능력치가 성공적으로 변경되었습니다.
+@LevelPropChangeSuccess=능력치가 성공적으로 변경되었습니다.
+@PropChangeConfirm=를 사용하여 능력치를 변경하시겠습니까?
+@PartsStrengthenSuccess=미니카가 성공적으로 강화되었습니다.
+@CharStrengthenSuccess=특성이 성공적으로 강화되었습니다.
+@BuyPartsConfirm={0} {1}를 사용하여 {2} 미니카를 구매하시겠습니까?
+@MaxStrengthenLevel=더 이상 강화할 수 없습니다.
+@BuyDescription=구매하시겠습니까?
+@FormatBuyDescription=[{0}] 구매하시겠습니까?
+@FormatBuySlotDescription=[{0}번 슬롯] 구매하시겠습니까?
+@ChargeDiamondSuccess=다이아 구매가 완료되었습니다.
+@ChargeGoldSuccess=골드 구매가 완료되었습니다.
+@ChargeBatterySuccess=배터리 구매가 완료되었습니다.
+@ChargeDiamondFailed=구매에 실패하였습니다. \n 잠시후에 다시 시도하여 주십시오.
+@ChargeDiamondFailedInvalidReceipt=영수증 정보가 잘못되었습니다. \n 고객센터에 문의 바랍니다.
+
+@GameInvitation={0}님과 함께 고고씽 하시겠습니까?
+@LogoutConfirmMessage=로그아웃 하시겠습니까?
+@UnregisterConfirmMessage=게임을 탈퇴하실 경우 게임 데이터를 비롯하여, 결제하신 상품들과 구매항목들이 모두 삭제되며 탈퇴후에는 복구가 불가능합니다.\n정말로 탈퇴하시겠습니까?
+@PopupAbilityBuy_FormatHasItem=[{0}]x{1} 보유하고 있습니다.
+@PopupAbilityBuy_NoItem=보유하고 있는 아이템이 없습니다.
+@GuestLoginConfirm=게스트로 로그인하게 되면 게임이용에 제한이 있으며 게임삭제, 디바이스 변경, 탈퇴 시 데이터가 삭제될수 있습니다. \n 게스트 로그인하시겠습니까?
+@InAppropriateNick=적합하지 않은 닉네임입니다. \n 닉네임은 2자 이상 10자이하의 한글과 영문, 숫자로 구성될 수 있습니다.
+@AnotherUserAlreadyUsingNick=이미 사용중인 닉네임입니다.
+@GuestLoginGameFinish=게스트 체험이 끝났습니다. \n 확인을 누르시면 로그인창으로 이동합니다.
+
+#게임 로그인 화면
+@PlatformLogin={0}에 연결중입니다.
+@GetAddressTRServer=로그인 준비중...
+@KeyNegotiation=접속 초기화중...
+@LoginTRServer=게임서버에 로그인 중...
+@LoadUserInfo=사용자 정보 로드중...
+@LoadShopInfo=상점 정보를 로드중...
+@LoadFriendInfo=친구 정보 로드중...
+@LoadRankingInfo=랭킹 정보 로드중...
+@LoadComplete=게임 로딩 완료...
+@GSLoginFail=죄송합니다. 게임 서버 로그인에 실패하였습니다. 다시 로그인해주세요.
+
+#카카오 스트링
+@KakaoAccountLoginRequestAlert=현재 카카오계정이 카카오톡과 연결되어 있지 않습니다. \n 카카오톡에서 계정 로그인을 해주세요.
+@KakaoStartLogin=카카오 로그인중...
+@KakaoLoginComplete=카카오 로그인 완료.
+@KakaoLoginFail=카카오 로그인에 실패하였습니다. 다시 로그인해주세요. (에러 : {0} )
+@KakaoLocalUserFail=카카오 로그인에 실패하였습니다. 다시 로그인해주세요. (에러 : {0} ) 
+@KakaoFriendInfoFail=카카오 친구가져오기에 실패하였습니다. 다시 로그인해주세요. (에러 : {0} ) 
+@KakaoFriendInfoGet=카카오 친구 정보 로드중...
+@KakaoExceedDailyInvitationCount=하루에 보낼 수 있는 초대 메시지 개수를 초과하였습니다.
+@KakaoExccedInviteChatLimit=초대메시지를 보낼 수 없는 사용자입니다. \n 초대메시지는 같은 수신자에게 30일에 1번만 보낼수 있습니다.
+@KakaoMessageBlocked=초대메시지 수신을 차단한 사용자입니다.
+@KakaoInviteConfirm={0}님에게 카카오톡으로 초대메시지를 보내시겠습니까?
+@KakaoInviteComplete=초대 메시지 전송이 완료되었습니다. \n 배터리 1개를 받았습니다.
+@KakaoUnsupportedDevice=지원하지 않는 OS를 사용하는 유저입니다.
+
+#개인 기록
+@PlayerRecordCreatedAccount=최초 계정 생성일
+@PlayerRecord401=로그인
+@PlayerRecord402=친구초대
+@PlayerRecord403=보낸 배터리
+@PlayerRecord404=받은 배터리
+@PlayerRecord405=친구와 같이 플레이
+@PlayerRecord409=평균 매치 대기 시간 (초)
+@PlayerRecord410=주간 우승 횟수
+@PlayerRecord411=최다 연승 수
+@PlayerRecord412=현재 연승 수
+@PlayerRecord413=주간 전체 랭킹 1위
+@PlayerRecord414=주간 전체 랭킹 2위
+@PlayerRecord415=주간 전체 랭킹 3위
+@PlayerRecord416=주간 전체 랭킹 TOP50
+@ContinuousVictory=연승
+
+@PlayerRecord501=차량 구매 횟수
+@PlayerRecord502=차량 강화 횟수
+@PlayerRecord503=차량 능력치 변경 횟수
+@PlayerRecord504=플레이어 능력치 변경 횟수
+@PlayerRecord505=특성 구매 횟수
+@PlayerRecord506=특성 강화 성공
+@PlayerRecord507=특성 강화 실패
+@PlayerRecord508=배터리 구매
+@PlayerRecord509=골드 구매
+@PlayerRecord510=다이아몬드 구매
+@PlayerRecord511=보상받은 골드
+@PlayerRecord512=보상받은 다이아몬드
+@PlayerRecord513=소비한 골드
+@PlayerRecord514=소비한 다이아몬드
+@PlayerRecord515=벌어들인 골드
+@PlayerRecord516=1회성 아이템 구매횟수
+@PlayerRecord517=특성 판매 횟수
+
+@PlayerRecord701=차량 충돌 횟수
+@PlayerRecord702=내 차량 피격 횟수
+@PlayerRecord703=타 차량 폭격 횟수
+@PlayerRecord704=기권 횟수
+@PlayerRecord705=게임 아이템 박스 획득
+@PlayerRecord706=게임 아이템 사용
+@PlayerRecord707=1회성 아이템 사용
+@PlayerRecord708=압도적인 1위
+@PlayerRecord709=아까운 2위
+@PlayerRecord710=주행 거리 (m)
+@PlayerRecord711=획득한 금메달
+@PlayerRecord712=획득한 은메달
+@PlayerRecord713=획득한 동메달
+@PlayerRecord714=플레이 횟수
+@PlayerRecord718=플레이 시간 (초)
+@PlayerRecord719=한방폭격 횟수
+@PlayerRecord720=피격제로 횟수
+
+# 장착 특성 요약
+@AbilitySummaryNeedToEquip=특성을 장착하면 종합 정보가 표시됩니다.
+@AbilitySummary0=속도
+@AbilitySummary1=가속도
+@AbilitySummary2=강도
+@AbilitySummary3=HP
+@AbilitySummary4=아이템 데미지
+@AbilitySummary5=충돌 데미지 증가
+@AbilitySummary6=충돌 데미지 감소
+@AbilitySummary7=아이템 획득
+@AbilitySummary8={0:F2}M 이동마다 HP 회복
+@AbilitySummary9={0:F2}M 이동마다 골드 획득
+@AbilitySummary10=슬로우 아이템 지속 시간 증가
+@AbilitySummary11=슬로우 아이템 지속 시간 감소
+@AbilitySummary12=경험치
+@AbilitySummary13=차량 폭파시 HP 회복 속도 감소
+@AbilitySummary14=레인 이동 속도 증가
+
+#에러코드
+@InsufficientGameTicket=배터리가 부족합니다. 충전하시겠습니까?
+@InsufficientGameMoney=골드가 부족합니다. 충전하시겠습니까?
+@InsufficientCash=다이아가 부족합니다. 충전하시겠습니까?
+@InvalidPropChangeRequest=사용하지 않은 능력치가 있습니다.
+@ExecutePlayServerFail=매치메이킹 실패.
+@PartsBuyAnsSuccess=미니카를 성공적으로 구매하였습니다. 구매한 미니카는 자동 장착됩니다.
+@SessionExpired=서버와의 연결이 종료되어 다시 접속합니다.
+@ExitGameDuringPlay=[GoGo 고고씽]을 나가시겠습니까?
+@ExitGame=[GoGo 고고씽]을 종료하시겠습니까?
+@HaveNoItem=보유하지 않은 아이템입니다.
+@NotOnConditions=구매 조건이 맞지 않아 구매 불가능합니다.
+@SlotIsAlreadyOpened=이미 구매된 슬롯입니다.
+@AllItemIsAttached=더 이상 장착할 수 있는 항목이 없습니다.
+@AlreadyAttached=이미 장착 중입니다.
+@AttachAbility=특성을 장착하시겠습니까?
+@SellAbility=특성을 판매하시겠습니까?
+@CannotSellAttachedItem=장착된 특성은 판매할 수 없습니다.\n먼저 특성을 슬롯에서 장착해제 후 판매하십시오.
+@CannotSellAbility=판매 불가능한 특성입니다.
+@EmptyCoupon=쿠폰번호를 입력하세요.
+@InvalidCoupon=유효하지 않은 쿠폰번호입니다.
+@AlreadyUsedCoupon=이미 사용된 쿠폰입니다.
+@ExpiredCoupon=유효기간이 지난 쿠폰입니다.
+@AlreadyUsedAnotherCoupon=이미 같은 종류의 쿠폰을 사용하여 사용할 수 없습니다.
+@WaitingServerResponseTimeOver=서버로부터 응답이 없습니다.
+
+#로그인 진행
+@LoginProc_ServerConnect=서버에 접속중입니다...
+@LoginProc_GetFriendList=친구목록을 가져오고 있습니다.
+@LoginProc_GetPlayerInfo=플레이어 정보를 가져오고 있습니다.
+@LoginProc_GetShopInfo=상점정보를 가져오고 있습니다.
+@LoginProc_Complete=로딩 완료
+
+#시작 아이템 리스트
+@ItemName_33000100=스탯 증가
+@ItemName_33000200=HP +20UP
+@ItemName_33000300=경험치 2배
+@ItemName_33000400=데미지 공격+5
+@ItemName_33000500=데미지 방어+5
+@ItemName_33000600=충돌 데미지 공격 증가 +5
+@ItemName_33000700=충돌 데미지 방어 증가 +5
+@ItemName_33000800=시작 부스터
+@ItemName_33000900=라스트 스퍼트
+@ItemName_33001000=빠른 HP회복
+@ItemName_33001100=게임머니 획득 UP
+
+#시작 아이템 설명
+@ItemDesc_33000100=가속도 속도 강도 +3UP
+@ItemDesc_33000200=기본 HP의 20%를 증가
+@ItemDesc_33000300=획득한 경험치의 2배 제공
+@ItemDesc_33000400=공격시 데미지를 5P 증가 
+@ItemDesc_33000500=공격받았을 때 데미지를 5P 감소
+@ItemDesc_33000600=충돌시 상대에게 데미지를 5P 증가
+@ItemDesc_33000700=충돌시 나의 데미지를 5P 감소 
+@ItemDesc_33000800=시작과 동시에 부스터 발동
+@ItemDesc_33000900=결승전 통과 100M전 마지막 부스터 발동
+@ItemDesc_33001000=차의 HP의 회복 시간을 10% 감소
+@ItemDesc_33001100=획득한 게임머니에 +30%를 추가 지급
+
+#===============================================================================
+# 차량 #
+
+#차량 이름
+@ItemName_11100100=포키
+@ItemName_11100200=티코
+@ItemName_11100300=플레어
+@ItemName_11100400=그리니
+@ItemName_11200100=미니
+@ItemName_11200200=폴리
+@ItemName_11200300=앙카
+@ItemName_11200400=버기
+@ItemName_11300100=클로저
+@ItemName_11300200=브루너
+@ItemName_11300300=터빈
+@ItemName_11300400=샤크
+@ItemName_11300500=컬린
+@ItemName_11300600=로코
+@ItemName_11300700=마이티
+
+#차량골드구매조건
+@BodyCondition_11200100=플레이 60회
+@BodyCondition_11200200=차량충돌 400회
+@BodyCondition_11200300=특성구매 12회
+@BodyCondition_11200400=주행거리 40000m
+@BodyCondition_11300100=차량폭격 402회
+@BodyCondition_11300200=압도적 1위 30회
+@BodyCondition_11300300=10연승
+@BodyCondition_11300400=주간우승 3회
+@BodyCondition_11300500=친구 30명
+@BodyCondition_11300600=주행거리 400000m
+@BodyCondition_11300700=차량피격 500회
+
+#차량 특성 이름
+@AbilityName_31000100=보호막
+@AbilityName_31000200=후방 감지
+@AbilityName_31000400=가속도 증가
+@AbilityName_31000500=HP 증가
+@AbilityName_31000600=속도 증가
+@AbilityName_31000700=충돌 데미지 증가
+@AbilityName_31000800=강도 증가
+@AbilityName_31000900=아이템 데미지 증가
+@AbilityName_31001000=강도 증가
+@AbilityName_31001100=가속도 증가
+@AbilityName_31001200=HP 증가
+@AbilityName_31001300=스탯 증가
+@AbilityName_31001400=스탯 증가
+@AbilityName_31001500=랩 부스터
+@AbilityName_31001600=데미지 무시
+@AbilityName_31001800=가속도 증가
+
+@AbilityName_32100100=패트리어트
+@AbilityName_32100200=파괴전차
+@AbilityName_32100300=얼음길
+@AbilityName_32100400=래피드 터보
+@AbilityName_32100500=대쉬 터보
+@AbilityName_32100600=슬로우 필드
+@AbilityName_32100700=깜짝 상자
+@AbilityName_32100800=폭탄병
+@AbilityName_32100900=아이스 캐리어
+@AbilityName_32101000=다연장 로켓포
+@AbilityName_32101100=니트로 터보
+@AbilityName_32101200=연발 체이서
+@AbilityName_32101300=라이트닝 해머
+@AbilityName_32101400=바리케이드
+@AbilityName_32101500=전기장
+@AbilityName_32101600=폭주 기관차
+@AbilityName_32101700=피격 부스터
+
+#차량 특성 설명
+@AbilityDesc_31000100=100m 이동 시 보호막 생성
+@AbilityDesc_31000200=후방으로 접근하는 아이템 감지
+@AbilityDesc_31000300=시작 부스터
+@AbilityDesc_31000400=가속도 +10
+@AbilityDesc_31000500=HP +15
+@AbilityDesc_31000600=속도 +5
+@AbilityDesc_31000700=충돌 데미지 +8
+@AbilityDesc_31000800=강도 +10
+@AbilityDesc_31000900=아이템 데미지 +10
+@AbilityDesc_31001000=강도 +2
+@AbilityDesc_31001100=가속도 +5
+@AbilityDesc_31001200=HP 60% 증가
+@AbilityDesc_31001300=속도/가속도/강도 +3
+@AbilityDesc_31001400=속도/가속도/강도 +5
+@AbilityDesc_31001500=한바퀴 돌때 마다 부스터
+@AbilityDesc_31001600=50% 확률로 데미지 무시
+@AbilityDesc_31001800=가속도 +20
+
+@AbilityDesc_32100100=펀치 아이템 변형
+@AbilityDesc_32100200=폭탄 아이템 변형
+@AbilityDesc_32100300=아이스 아이템 변형
+@AbilityDesc_32100400=터보 아이템 속도 증가
+@AbilityDesc_32100500=터보 아이템 지속 시간 증가
+@AbilityDesc_32100600=터보 아이템 슬로우 효과 추가
+@AbilityDesc_32100700=아이템 획득시 확률적으로 부스터 효과
+@AbilityDesc_32100800=여러 개의 폭탄 아이템을 하나씩
+@AbilityDesc_32100900=여러 개의 아이스 아이템을 하나씩
+@AbilityDesc_32101000=여러 개의 미사일을 단일 타겟에게 발사
+@AbilityDesc_32101100=아이템 획득시 게이지 추가\n풀 게이지시 부스터 효과
+@AbilityDesc_32101200=여러 개의 체이서 아이템을 하나씩 발사
+@AbilityDesc_32101300=해머의 슬로우 효과와 데미지를 동시에
+@AbilityDesc_32101400=차량이 폭파될 경우 다른 레인에 바리케이드 설치
+@AbilityDesc_32101500=차량을 느려지게 하는 전기장 설치
+@AbilityDesc_32101600=차량이 폭파될 경우 부스터 효과
+@AbilityDesc_32101700=데미지 아이템 5회 피격시 부스터 효과
+
+#===============================================================================
+#판매 특성 이름
+@AbilityName_31100100=자동 보호망 생성
+@AbilityName_31100200=후방 감지
+@AbilityName_31100300=시작 부스터
+@AbilityName_31100400=욕심쟁이
+@AbilityName_31100530=스태커
+@AbilityName_31100610=브론즈 모터
+@AbilityName_31100620=실버 모터
+@AbilityName_31100630=골드 모터
+
+@AbilityName_31100710=플라스틱 기어
+@AbilityName_31100720=알루미늄 기어
+@AbilityName_31100730=스틸 기어
+
+@AbilityName_31100810=강화 플라스틱
+@AbilityName_31100820=강화 알루미늄
+@AbilityName_31100830=강화 스틸
+
+@AbilityName_31100910=소용량 배터리
+@AbilityName_31100920=중용량 배터리
+@AbilityName_31100930=대용량 배터리
+
+@AbilityName_31101010=비비탄
+@AbilityName_31101020=콩알탄
+@AbilityName_31101030=화약탄
+
+@AbilityName_31101110=강화 플라스틱 범퍼
+@AbilityName_31101120=강화 알루미늄 범퍼
+@AbilityName_31101130=강화 스틸 범퍼
+
+@AbilityName_31101210=일자 드라이버
+@AbilityName_31101220=십자 드라이버
+@AbilityName_31101230=만능 드라이버
+@AbilityName_31101310=동전 지갑
+@AbilityName_31101320=돼지저금통
+@AbilityName_31101330=돈가방
+
+@AbilityName_31101410=저가형 전파증폭기
+@AbilityName_31101420=보급형 전파증폭기
+@AbilityName_31101430=고급형 전파증폭기
+@AbilityName_31101510=저가형 전파감지기
+@AbilityName_31101520=보급형 전파감지기
+@AbilityName_31101530=고급형 전파감지기
+
+@AbilityName_31101610=경험치 1%+
+@AbilityName_31101620=경험치 3.5%+
+@AbilityName_31101630=경험치 6%+
+
+@AbilityName_31101710=저가형 배터리충전기
+@AbilityName_31101720=보급형 배터리충전기
+@AbilityName_31101730=고급형 배터리충전기
+
+@AbilityName_31101810=경량 플라스틱 타이어
+@AbilityName_31101820=고무 타이어
+@AbilityName_31101830=스폰지 타이어
+
+#판매 특성 설명
+@AbilityDesc_31100530=아이템 획득 개수 증가 +{0}
+@AbilityDesc_31100610=속도 +{0}
+@AbilityDesc_31100620=속도 +{0}
+@AbilityDesc_31100630=속도 +{0}
+
+@AbilityDesc_31100710=가속도 +{0}
+@AbilityDesc_31100720=가속도 +{0}
+@AbilityDesc_31100730=가속도 +{0}
+
+@AbilityDesc_31100810=강도 +{0}
+@AbilityDesc_31100820=강도 +{0}
+@AbilityDesc_31100830=강도 +{0}
+
+@AbilityDesc_31100910=HP +{0}
+@AbilityDesc_31100920=HP +{0}
+@AbilityDesc_31100930=HP +{0}
+
+@AbilityDesc_31101010=아이템 데미지 +{0}
+@AbilityDesc_31101020=아이템 데미지 +{0}
+@AbilityDesc_31101030=아이템 데미지 +{0}
+
+@AbilityDesc_31101110=충돌 데미지 +{0}
+@AbilityDesc_31101120=충돌 데미지 +{0}
+@AbilityDesc_31101130=충돌 데미지 +{0}
+
+@AbilityDesc_31101210={0}m 이동시 1HP 회복
+@AbilityDesc_31101220={0}m 이동시 1HP 회복
+@AbilityDesc_31101230={0}m 이동시 1HP 회복
+@AbilityDesc_31101310={0}m 이동시 1골드 획득
+@AbilityDesc_31101320={0}m 이동시 1골드 획득
+@AbilityDesc_31101330={0}m 이동시 1골드 획득
+
+@AbilityDesc_31101410=슬로우 계열 아이템 공격력 {0}% 증가 
+@AbilityDesc_31101420=슬로우 계열 아이템 공격력 {0}% 증가
+@AbilityDesc_31101430=슬로우 계열 아이템 공격력 {0}% 증가
+@AbilityDesc_31101510=슬로우 계열 아이템 방어력 {0}% 증가
+@AbilityDesc_31101520=슬로우 계열 아이템 방어력 {0}% 증가
+@AbilityDesc_31101530=슬로우 계열 아이템 방어력 {0}% 증가
+
+@AbilityDesc_31101610=경험치 +{0}%
+@AbilityDesc_31101620=경험치 +{0}%
+@AbilityDesc_31101630=경험치 +{0}%
+
+@AbilityDesc_31101710=차량 폭파시 HP 회복 시간 {0}% 감소
+@AbilityDesc_31101720=차량 폭파시 HP 회복 시간 {0}% 감소
+@AbilityDesc_31101730=차량 폭파시 HP 회복 시간 {0}% 감소
+
+@AbilityDesc_31101810=레인 이동 속도 {0}% 증가
+@AbilityDesc_31101820=레인 이동 속도 {0}% 증가
+@AbilityDesc_31101830=레인 이동 속도 {0}% 증가
+
+#특성골드구매조건
+@AbilityCondition_31100620=10레벨
+@AbilityCondition_31100630=20레벨
+@AbilityCondition_31100720=10레벨
+@AbilityCondition_31100730=20레벨
+@AbilityCondition_31100820=10레벨
+@AbilityCondition_31100830=20레벨
+@AbilityCondition_31100920=10레벨
+@AbilityCondition_31100930=20레벨
+@AbilityCondition_31101020=10레벨
+@AbilityCondition_31101030=20레벨
+@AbilityCondition_31101120=10레벨
+@AbilityCondition_31101130=20레벨
+@AbilityCondition_31101220=10레벨
+@AbilityCondition_31101230=20레벨
+@AbilityCondition_31101320=10레벨
+@AbilityCondition_31101330=20레벨
+@AbilityCondition_31101420=10레벨
+@AbilityCondition_31101430=20레벨
+@AbilityCondition_31101520=10레벨
+@AbilityCondition_31101530=20레벨
+@AbilityCondition_31101620=10레벨
+@AbilityCondition_31101630=20레벨
+@AbilityCondition_31101720=10레벨
+@AbilityCondition_31101730=20레벨
+@AbilityCondition_31101810=5레벨
+@AbilityCondition_31101820=15레벨
+@AbilityCondition_31101830=25레벨
+
+
+#로딩 팁 설명
+@TipDescription_0=강도를 업그레이드하면 차량간 충돌시 상대에게 데미지를 입히고 속도를 감속시킵니다.
+@TipDescription_1=특성을 장착하여 차에 성능을 강화하고 능력을 추가할 수 있습니다.
+@TipDescription_2=유도미사일류 아이템은 공격대상을 선택하여 미사일을 발사할 수 있습니다.
+@TipDescription_3=아이템 박스 부근에 자석을 설치하면 자석이 상대의 아이템을 빼앗습니다.
+@TipDescription_4=해머를 사용하면 근거리에 있는 타 차량들의 속도가 감속됩니다.
+@TipDescription_5=펀치 미사일과 슬로우집게는 트랙을 따라 발사되므로 한바퀴를 돌아 뒤쪽에서 공격을 당할 수 있습니다.
+@TipDescription_6=설치된 폭탄에 부딪히면 에너지가 감소됩니다.
+@TipDescription_7=설치된 얼음에 부딪히면 속도가 감속됩니다.
+@TipDescription_8=상대의 차를 공격하여 폭파시키면 보너스 골드가 지급됩니다.
+@TipDescription_9=스태커특성을 장착하면 획득한 아이템을 모아서 사용할 수 있습니다.
+@TipDescription_10=스티커는 차량의 성능을 업그레이드시켜줍니다. 좋은 스티커를 얻어서 붙여보세요.
+@TipDescription_11=item_02?펀치미사일?발사하는 라인을 따라 돌며 차량에 데미지를 주는 아이템입니다.
+@TipDescription_12=item_08?터보?일정시간 순간적으로 내 차의 속도를 올려주는 아이템입니다.
+@TipDescription_13=item_12?미사일?특정 유저를 공격하여 데미지를 주는 미사일 아이템입니다.
+@TipDescription_14=item_13?폭탄?내 차량 뒤쪽으로 떨어뜨려 부딪히는 차량에 데미지를 주는 폭탄 아이템입니다.
+@TipDescription_15=item_14?아이스?내 차량 뒤쪽으로 떨어뜨려 부딪히는 차량의 속도를 늦춰주는 아이템입니다.
+@TipDescription_16=item_19?스모그?내 차량 뒤쪽으로 다량의 연기를 발생하여 시야를 방해하는 아이템입니다.
+@TipDescription_17=item_20?해머?내려치는 순간 내 차량 주변의 차량들을 느려지게 하는 속도 저하 아이템입니다.
+@TipDescription_18=item_26?체이서?발사하는 라인을 따라 돌며 차량의 속도를 느려지게 하는 속도 저하 아이템입니다.
+@TipDescription_19=item_27?자석?설치된 곳 밑을 지나가면 보유한 아이템을 뺏어가는 자석 아이템입니다.
+@TipDescription_20=item_21?패트리어트?발사하는 라인을 따라 돌며 차량에 큰 데미지를 주는 아이템입니다.
+@TipDescription_21=item_22?파괴전차?내 차량 뒤쪽으로 라인을 따라 굴러가며, 부딪히는 차량에게 데미지를 주는 폭탄아이템입니다.(제거 안됨) 
+@TipDescription_22=item_23?얼음길?내 차량 뒤쪽으로 떨어뜨리면 얼음길이 생겨서,지나가는 차량의 속도를 늦춰주는 아이템입니다.
+@TipDescription_23=item_24?폭탄병?내 차량 뒤쪽으로 떨어뜨려 부딪히는 차량에게 데미지를 주는 폭탄아이템을 여러 개 보유한 아이템입니다.
+@TipDescription_24=item_25?아이스캐리어?내 차량 뒤쪽으로 떨어뜨려 부딪히는 차량의 속도를 늦춰주는 아이템을 여러 개 보유한 아이템입니다.
+@TipDescription_25=item_28?다연장로켓포?특정 유저를 공격하여 데미지를 주는 미사일 여러 발이 한꺼번에 발사되는 아이템입니다.
+@TipDescription_26=특정 기록을 달성하면은 스티커를 획득 할 수 있습니다. 특정 기록은 "내정보"에 스티커를 터치해서 확인 가능합니다.
+@TipDescription_27=아이템 사용이 완료되지 전까지는 아이템 획득을 할 수 없습니다.
+
+#상점
+@ChangeCashToGameMoney={0} 다이아를 사용하여 {1} 골드를 구매하시겠습니까?
+@ChangeCashToBattery={0} 다이아를 사용하여 {1} 배터리를 구매하시겠습니까?
+
+
+#차고
+@CarPurchaseIsComplete=차량 구매가 완료되었습니다.
+
+#특성 팝업
+@AbilityBuyComplete=특성 구매가 완료되었습니다.
+@AbilitySellComplete=특성 판매가 완료되었습니다.
+@AbilitySlotBuyComplete=특성 슬롯구매가 완료되었습니다.
+@AbilityAttachComplete=특성 장착이 완료되었습니다.
+@AbilityDetachComplete=특성 해제가 완료되었습니다.
+
+#슬롯구매조건
+@SlotCondition_5=게임 한 판 시 무료 제공됩니다
+@SlotCondition_6=[5레벨] 달성시 무료 제공됩니다
+@SlotCondition_7= 
+@SlotCondition_8= 
+@SlotCondition_9= 
+@SlotCondition_10= 
+
+
+#스티커 설명
+@NoSticker=[4a2e05]장착한 스티커가 없습니다.
+@Format_StickerDescription_Complete=[4a2e05]{0} [완]\n[ff0000][{1}][-]
+@Format_StickerDescription_Ing=[4a2e05]{0}\n[{1}]
+
+@Sticker_12100100=710?김여사?가속도+1?차 이동 : [ff0000]{0}[-]/10,000m
+@Sticker_12100101=710?초보 운전?가속도+3?차 이동 : [ff0000]{0}[-]/40,000m
+@Sticker_12100102=710?오너 드라이버?가속도+5?차 이동 : [ff0000]{0}[-]/100,000m
+@Sticker_12100103=710?레이서?가속도+11?차 이동 : [ff0000]{0}[-]/500,000m
+
+@Sticker_12100200=701?충돌은 유죄?강도 +5?차량 충돌 : [ff0000]{0}[-]/1000회
+@Sticker_12100201=701?충돌은 무죄?강도 +3?차량 충돌 : [ff0000]{0}[-]/300회
+@Sticker_12100202=701?아무도 날 막을 수 없어?강도 +9?차량 충돌 : [ff0000]{0}[-]/3000회
+
+@Sticker_12100300=711?금메달리스트?속도 +7?금메달 획득 : [ff0000]{0}[-]/100개
+@Sticker_12100400=712?은메달리스트?속도 +7?은메달 획득 : [ff0000]{0}[-]/100개
+@Sticker_12100500=713?동메달리스트?속도 +7?동메달 획득 : [ff0000]{0}[-]/100개
+
+@Sticker_12100600=501?미니카 수집가?가속도 +1?차 구매 : [ff0000]{0}[-]/5개
+
+@Sticker_12100700=511?가난뱅이?강도 +3?획득 골드 : [ff0000]{0}[-]/10,000골드
+@Sticker_12100701=511?부자가 되고 싶어?강도 +7?획득 골드 : [ff0000]{0}[-]/100,000골드
+@Sticker_12100702=511?욕심쟁이?강도 +11?획득 골드 : [ff0000]{0}[-]/500,000골드
+
+@Sticker_12100800=708?위대한 1위?가속도 +1?압도적인 1위 : [ff0000]{0}[-]/1회
+@Sticker_12100900=709?콩은 내 운명?가속도 +1?아까운 2위 : [ff0000]{0}[-]/1회
+
+@Sticker_12101000=714?나는야 베테랑?속도 +5?게임 플레이 : [ff0000]{0}[-]/100회
+@Sticker_12101001=714?고고씽 전문가?속도 +7?게임 플레이 : [ff0000]{0}[-]/1000회
+
+@Sticker_12101100=703?사신?강도 +11?차 폭파 : [ff0000]{0}[-]/1000회
+@Sticker_12101101=703?고통을 부르는 차?강도 +3?차 폭파 : [ff0000]{0}[-]/30회
+@Sticker_12101102=703?자부심 가득한 차?강도 +5?차 폭파 : [ff0000]{0}[-]/100회
+@Sticker_12101103=703?잔인한 차?강도 +9?차 폭파 : [ff0000]{0}[-]/500회
+
+@Sticker_12101200=411?불사조?속도 +5?연승 진행 : [ff0000]{0}[-]/10연승
+
+@Sticker_12101300=706?아이템사용 1,000회?강도 +3?게임 아이템 사용 : [ff0000]{0}[-]/1000회
+@Sticker_12101301=706?아이템사용 5,000회?강도 +7?게임 아이템 사용 : [ff0000]{0}[-]/5000회
+@Sticker_12101302=706?아이템사용 10,000회?강도 +9?게임 아이템 사용 : [ff0000]{0}[-]/10000회
+
+@Sticker_12101400=1002?마당발?가속도 +3?친구 리스트에 친구가 30명 : [ff0000]{0}[-]/30명
+@Sticker_12101500=714?초보탈출?속도 +1?게임 플레이 : [ff0000]{0}[-]/5회
+@Sticker_12101600=719?원샷원킬?속도 +10?한방 폭격 : [ff0000]{0}[-]/1회
+@Sticker_12101700=720?안전제일!?가속도 +3?피격제로 : [ff0000]{0}[-]/1회
+@Sticker_12101800=1003?스티커 수집가?속도 +11?스티커 획득 : [ff0000]{0}[-]/30개
+
+
+#에러코드
+@ErrorCode1005=게임 버전이 최신이 아닙니다.\n업데이트를 진행해주세요!
+@ErrorCode10008=대기방이 취소되었습니다.
+@ErrorCode10010=대기방이 취소되었습니다.
+@ErrorCode30016=해당 특성 장착은 등급에 관계없이\n한 슬롯으로 제한됩니다.
+@ErrorCode30018=해당 특성은 하나만 구매가 가능합니다.
+
+#Platform
+@Kakao=카카오
+@Band=밴드
+@Facebook=페이스북
+
+
+#playreward
+@PlayReward=[{0}]을 획득하였습니다.
+@PlayRewardFirstGameReward=1게임 플레이
+@PlayRewardThirdGameReward=3게임 플레이
+@PlayRewardTemplate={0} 보상으로\n[{1}]을 획득하였습니다.
+@PlayRewardLevel5=5레벨 달성 보상으로 특성 2번째 슬롯이 열렸습니다.
+
+#Popup Friend Invitation 
+@Title_FriendInvitation=친구초대
+@Limit_FriendInvitation=하루 초대 가능 인원 30명
+@Present_Battery=초대하고 배터리 받기
+@Format_FriendName="{0}"님
+@Button_FriendInvitation_Invite=초대하기
+@TagInvitedFriend=현재 초대한 친구
+@CannotInviteFriend={0}님은 초대할 수 없습니다.
+@Achieving10people=10명 달성!
+@Achieving20people=20명 달성!
+@Achieving30people=30명 달성!
+@10_SubstituteGamemoney=보유시 5,000골드 증정
+@20_SubstituteGamemoney=보유시 10,000골드 증정
+@30_SubstituteGamemoney=보유시 20,000골드 증정
+@10_ItemName=5000\n골드
+@20_ItemName=폴리
+@30_ItemName=레어 특성 [스태커]
+@Nofriendstoinvite=초대할 친구가 없습니다.
+
+#Popup Notice
+@Title_Notice=공지사항
+
+#Game Review
+@GameReview = 초보 탈출 축하!\n게임 리뷰를 남기면 1000골드를 드려요.
+@Review = 리뷰
+
+#Popup Shop
+@BatteryDescription = 배터리를 구매하여 충전합니다. 친구를 초대해도 배터리가 충전됩니다.
+@CashBescription = 다이아로 자동차, 특성, 슬롯등 다양한 상품을 구매할 수 있습니다.
+@GameMoneyDescription = 골드로 자동차, 특성등 다양한 상품을 구매할 수 있습니다.
+
+#Popup Mail
+@NoMail=메일함이 비어있습니다.
+
+#Popup Garage
+@Lock_prefix= 
+@Lock_Suffix=달성시 골드로 구매가능
+@FormatAvailableAtAchieving=[{0}] 달성시 골드로 구매 가능합니다.
+
+#Popup Match Waiting
+@MatchWaitingPopupTitle = 대전 상대를 찾는중
+@MatchWaitingPopupElapsedTime = 진행 시간 : {0}초
+@MatchWaitingPopupEstimatedTime = 예상 시간 : {0}초
+@MatchWaitingPopupSecText = 초
+
+#Popup GarageDetail
+@GarageDetail = 차량마다 특성이 존재합니다.
+
+#Popup Pause
+@Warning = 경고) 비정상 종료 시 경험치 및 기타 보상이 누적되지 않습니다.
+
+#Popup AbilityList
+@NoAbility=특성보관함이 비어있습니다.\n\n특성을 구매해주세요
+
+#Popup WeeklyRanking
+@Title_WeeklyRanking=금주의 랭킹 TOP3
+@ResetRankingRemainTime={0}일 {1:00}:{2:00}:{3:00}
+@FriendRankingReward=친구랭킹보상
+@Top50RankingReward=주간랭킹보상
+@FriendRankingResult=친구랭킹 TOP3
+@Top50RankingResult=주간랭킹 TOP3

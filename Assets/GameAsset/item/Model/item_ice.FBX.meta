@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: e668859ee1d53cb41953605a551163d2
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: item_ice
+    100004: item_ice001
+    100006: item_ice002
+    100008: item_ice003
+    100010: item_ice004
+    100012: item_ice005
+    100014: item_ice006
+    100016: item_ice007
+    100018: item_ice_01
+    100020: item_ice_02
+    100022: item_ice_base
+    100024: item_ice_01_1
+    100026: item_ice_01_2
+    100028: item_ice_02_1
+    100030: item_ice_02_2
+    100032: item_ice_02_3
+    400000: //RootNode
+    400002: item_ice
+    400004: item_ice001
+    400006: item_ice002
+    400008: item_ice003
+    400010: item_ice004
+    400012: item_ice005
+    400014: item_ice006
+    400016: item_ice007
+    400018: item_ice_01
+    400020: item_ice_02
+    400022: item_ice_base
+    400024: item_ice_01_1
+    400026: item_ice_01_2
+    400028: item_ice_02_1
+    400030: item_ice_02_2
+    400032: item_ice_02_3
+    2300000: item_ice
+    2300002: item_ice001
+    2300004: item_ice002
+    2300006: item_ice003
+    2300008: item_ice004
+    2300010: item_ice005
+    2300012: item_ice006
+    2300014: item_ice007
+    2300016: item_ice_01
+    2300018: item_ice_02
+    2300020: item_ice_base
+    2300022: item_ice_01_1
+    2300024: item_ice_01_2
+    2300026: item_ice_02_1
+    2300028: item_ice_02_2
+    2300030: item_ice_02_3
+    3300000: item_ice
+    3300002: item_ice001
+    3300004: item_ice002
+    3300006: item_ice003
+    3300008: item_ice004
+    3300010: item_ice005
+    3300012: item_ice006
+    3300014: item_ice007
+    3300016: item_ice_01
+    3300018: item_ice_02
+    3300020: item_ice_base
+    3300022: item_ice_01_1
+    3300024: item_ice_01_2
+    3300026: item_ice_02_1
+    3300028: item_ice_02_2
+    3300030: item_ice_02_3
+    4300000: item_ice
+    4300002: item_ice001
+    4300004: item_ice002
+    4300006: item_ice003
+    4300008: item_ice004
+    4300010: item_ice005
+    4300012: item_ice006
+    4300014: item_ice007
+    4300016: item_ice_01
+    4300018: item_ice_02
+    4300020: item_ice_base
+    4300022: item_ice_01_1
+    4300024: item_ice_01_2
+    4300026: item_ice_02_1
+    4300028: item_ice_02_2
+    4300030: item_ice_02_3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

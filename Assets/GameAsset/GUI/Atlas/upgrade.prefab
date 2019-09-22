@@ -1,0 +1,319 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &184974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 494262}
+  - component: {fileID: 11456128}
+  m_Layer: 0
+  m_Name: upgrade
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &494262
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184974}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11456128
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: f4573143fce989e44a1b5a4242bbfa92, type: 2}
+  mSprites:
+  - name: battery01
+    x: 0
+    y: 799
+    width: 105
+    height: 119
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 11
+    paddingTop: 4
+    paddingBottom: 5
+  - name: battery02
+    x: 0
+    y: 678
+    width: 105
+    height: 119
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 11
+    paddingTop: 4
+    paddingBottom: 5
+  - name: battery03
+    x: 214
+    y: 799
+    width: 105
+    height: 119
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 11
+    paddingTop: 4
+    paddingBottom: 5
+  - name: battery04
+    x: 321
+    y: 799
+    width: 105
+    height: 119
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 11
+    paddingTop: 4
+    paddingBottom: 5
+  - name: battery05
+    x: 107
+    y: 799
+    width: 105
+    height: 119
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 12
+    paddingRight: 11
+    paddingTop: 4
+    paddingBottom: 5
+  - name: bodyholder01
+    x: 254
+    y: 476
+    width: 114
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 7
+    paddingTop: 28
+    paddingBottom: 30
+  - name: bodyholder02
+    x: 380
+    y: 936
+    width: 128
+    height: 88
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 20
+    paddingBottom: 20
+  - name: bodyholder03
+    x: 257
+    y: 926
+    width: 121
+    height: 98
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 4
+    paddingTop: 15
+    paddingBottom: 15
+  - name: bodyholder04
+    x: 130
+    y: 927
+    width: 125
+    height: 97
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 2
+    paddingTop: 15
+    paddingBottom: 16
+  - name: bodyholder05
+    x: 0
+    y: 920
+    width: 128
+    height: 104
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 12
+    paddingBottom: 12
+  - name: motor01
+    x: 0
+    y: 463
+    width: 125
+    height: 83
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 3
+    paddingTop: 22
+    paddingBottom: 23
+  - name: motor02
+    x: 127
+    y: 463
+    width: 125
+    height: 83
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 3
+    paddingTop: 22
+    paddingBottom: 23
+  - name: motor03
+    x: 107
+    y: 714
+    width: 125
+    height: 83
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 3
+    paddingTop: 22
+    paddingBottom: 23
+  - name: motor04
+    x: 234
+    y: 714
+    width: 125
+    height: 83
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 3
+    paddingTop: 22
+    paddingBottom: 23
+  - name: motor05
+    x: 361
+    y: 714
+    width: 125
+    height: 83
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 3
+    paddingTop: 22
+    paddingBottom: 23
+  - name: shcock01
+    x: 178
+    y: 548
+    width: 86
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 21
+    paddingRight: 21
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shcock02
+    x: 0
+    y: 548
+    width: 87
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 21
+    paddingRight: 20
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shcock03
+    x: 353
+    y: 548
+    width: 84
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 23
+    paddingRight: 21
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shcock04
+    x: 89
+    y: 548
+    width: 87
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 20
+    paddingRight: 21
+    paddingTop: 0
+    paddingBottom: 0
+  - name: shcock05
+    x: 266
+    y: 548
+    width: 85
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 22
+    paddingRight: 21
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 184974}
+  m_IsPrefabParent: 1

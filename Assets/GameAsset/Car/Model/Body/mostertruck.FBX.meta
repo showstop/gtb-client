@@ -1,0 +1,111 @@
+fileFormatVersion: 2
+guid: 2d09887082e5d144c98ea2aceb8c14f7
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Object005
+    100004: Object007
+    100006: Object008
+    100008: body_mon
+    100010: Dum_back
+    100012: Dum_body
+    100014: Dum_top
+    100016: wheel_FL
+    100018: wheel_FR
+    100020: wheel_RL
+    100022: wheel_RR
+    100024: Object023
+    400000: //RootNode
+    400002: Object005
+    400004: Object007
+    400006: Object008
+    400008: body_mon
+    400010: Dum_back
+    400012: Dum_body
+    400014: Dum_top
+    400016: wheel_FL
+    400018: wheel_FR
+    400020: wheel_RL
+    400022: wheel_RR
+    400024: Object023
+    2300000: Object005
+    2300002: Object007
+    2300004: Object008
+    2300006: body_mon
+    2300008: Object023
+    3300000: Object005
+    3300002: Object007
+    3300004: Object008
+    3300006: body_mon
+    3300008: Object023
+    4300000: Object005
+    4300002: Object007
+    4300004: Object008
+    4300006: body_mon
+    4300008: Object023
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: model/turbin_body.asset
+  assetBundleVariant: 

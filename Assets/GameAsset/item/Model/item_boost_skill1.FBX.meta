@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: 6360ac1210210624ea62572015fc3ad9
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: item_boost_skill1_003
+    100004: item_boost_skill1_004
+    100006: item_boost_skill1_005
+    100008: item_boost_skill1_006
+    100010: item_boost_skill1_01
+    100012: item_boost_skill1_02
+    100014: Dummy009
+    100016: Dummy010
+    100018: Dummy011
+    100020: Dummy012
+    100022: Dummy013
+    100024: Dummy014
+    100026: item_boost_skill1_007
+    100028: item_boost_skill1_008
+    100030: item_boost_skill1_009
+    100032: item_boost_skill1_010
+    100034: item_boost_skill1_011
+    100036: item_boost_skill1_012
+    100038: Dum_eff1
+    100040: Dum_eff2
+    400000: //RootNode
+    400002: item_boost_skill1_003
+    400004: item_boost_skill1_004
+    400006: item_boost_skill1_005
+    400008: item_boost_skill1_006
+    400010: item_boost_skill1_01
+    400012: item_boost_skill1_02
+    400014: Dummy009
+    400016: Dummy010
+    400018: Dummy011
+    400020: Dummy012
+    400022: Dummy013
+    400024: Dummy014
+    400026: item_boost_skill1_007
+    400028: item_boost_skill1_008
+    400030: item_boost_skill1_009
+    400032: item_boost_skill1_010
+    400034: item_boost_skill1_011
+    400036: item_boost_skill1_012
+    400038: Dum_eff1
+    400040: Dum_eff2
+    2300000: item_boost_skill1_003
+    2300002: item_boost_skill1_004
+    2300004: item_boost_skill1_005
+    2300006: item_boost_skill1_006
+    2300008: item_boost_skill1_01
+    2300010: item_boost_skill1_02
+    2300012: item_boost_skill1_007
+    2300014: item_boost_skill1_008
+    2300016: item_boost_skill1_009
+    2300018: item_boost_skill1_010
+    2300020: item_boost_skill1_011
+    2300022: item_boost_skill1_012
+    3300000: item_boost_skill1_003
+    3300002: item_boost_skill1_004
+    3300004: item_boost_skill1_005
+    3300006: item_boost_skill1_006
+    3300008: item_boost_skill1_01
+    3300010: item_boost_skill1_02
+    3300012: item_boost_skill1_007
+    3300014: item_boost_skill1_008
+    3300016: item_boost_skill1_009
+    3300018: item_boost_skill1_010
+    3300020: item_boost_skill1_011
+    3300022: item_boost_skill1_012
+    4300000: item_boost_skill1_01
+    4300002: item_boost_skill1_02
+    4300004: item_boost_skill1_003
+    4300006: item_boost_skill1_004
+    4300008: item_boost_skill1_005
+    4300010: item_boost_skill1_006
+    4300012: item_boost_skill1_012
+    4300014: item_boost_skill1_011
+    4300016: item_boost_skill1_010
+    4300018: item_boost_skill1_009
+    4300020: item_boost_skill1_008
+    4300022: item_boost_skill1_007
+    7400000: use
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: use
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

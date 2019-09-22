@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: FourthPlace
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88ef0282658803b48a3533c49815d8a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sequences:
+  - spriteSheet: {fileID: 100000, guid: 9eff602399a328242bb4a342c79d9aae, type: 2}
+    offset: {x: 0, y: 0, z: 0}
+    waittingTime: 0
+    foldOut: 1
+    color: {r: 0.97598755, g: 0.63248634, b: 0.25094062, a: 1}
+    spriteSheetRef: {fileID: 100000, guid: 9eff602399a328242bb4a342c79d9aae, type: 2}
+    oldSpriteSheetRef: {fileID: 100000, guid: 9eff602399a328242bb4a342c79d9aae, type: 2}
+    play: 0
+  - spriteSheet: {fileID: 100000, guid: f901e83f7b2e85f4fba55d61e2ea2bd8, type: 2}
+    offset: {x: 0, y: 0, z: 0.1}
+    waittingTime: 0
+    foldOut: 1
+    color: {r: 0.8522638, g: 0.8605201, b: 0.48667878, a: 1}
+    spriteSheetRef: {fileID: 100000, guid: f901e83f7b2e85f4fba55d61e2ea2bd8, type: 2}
+    oldSpriteSheetRef: {fileID: 100000, guid: f901e83f7b2e85f4fba55d61e2ea2bd8, type: 2}
+    play: 0
+  - spriteSheet: {fileID: 100000, guid: de66a022ea9bd534cbcf167482128814, type: 2}
+    offset: {x: 0, y: 0.15, z: 0.2}
+    waittingTime: 0
+    foldOut: 1
+    color: {r: 0.48533076, g: 0.15252078, b: 0.3228169, a: 1}
+    spriteSheetRef: {fileID: 100000, guid: de66a022ea9bd534cbcf167482128814, type: 2}
+    oldSpriteSheetRef: {fileID: 100000, guid: de66a022ea9bd534cbcf167482128814, type: 2}
+    play: 0
+  billboarding: 3
+  autoDestruct: 1
+  editorMode: 0
+  useParentLayer: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1

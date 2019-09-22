@@ -1,0 +1,42 @@
+Toon Effect Volume 2 : How to create a sequence
+===============================================
+
+* Look at our video tutorial here : http://youtu.be/xfxeYHZSBUg
+
+1 - Menu Hedgehog Team => Spritesheet effect sequencer
+2 - Enter a name for your effect, on click on generate.
+	=> A specific folder is created with the name of your effect. 
+	   It will containt the copies of the sprite sheet effect that make up your sequence
+
+3 - Inspector Parameter :
+========================
+* Editor mode : Allow you to keep properties changes in play mode
+
+* Name : Name of your sequence
+
+* Camera facing :Gives the behavior of the object relative to the camera. It's overwrite the facing mode of spritesheet prefab    
+                        - Bill Board : The object will always face
+                        - Horizontal : the object will always face relative to Y axis       
+                        - Vertical  : the object will always face relative to X axis  
+                        - Never  : the object will never face  
+
+* Add spritesheet prefab : To add a spritesheet effect (look at on your 02-How to create an effect
+- 
+
+* Auto destruct (in editor mode): When the sequence is over, the sequence will be automatically  destroy
+
+* Replay (in play mode) : To replay the sequence
+
+* For each spritesheet prefab :
+================================
+* spritesheet prefab : The spritesheet effect
+
+* Gismos color : Color of the gizmos in editor mode.
+
+* Spritesheet properties : Look at 03 - HTSpriteSheet.cs parameter.txt
+
+* Offset : Relative position from the center of the sequence.
+
+* Wait before start : The time in second before the effect will be play
+
+* Remove : To remove the spritesheet effect

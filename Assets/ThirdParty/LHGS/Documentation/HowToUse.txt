@@ -1,0 +1,10 @@
+LHGS Lighting System V1.0
+
+*How to Use
+
+1.Go the Window/LHGS Lighting System
+2.Click on <LHGS Lighting System> in your hierarchy
+3.In Inspector go to Rendering and click on Render Lightmap.
+
+*Video example is here
+http://www.youtube.com/watch?v=bd5vt0Z4ZnE

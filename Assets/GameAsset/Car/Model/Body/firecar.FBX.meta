@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: afbe45cb4a996274cb2551c0d5e53958
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box008
+    100002: //RootNode
+    100004: Object001
+    100006: Box005
+    100008: Box006
+    100010: Cylinder002
+    100012: wheel_race
+    100014: wheel_race001
+    100016: Object002
+    100018: Object003
+    100020: 119
+    100022: Box010
+    100024: Object005
+    100026: Object006
+    100028: Object009
+    100030: Object007
+    100032: car001
+    100034: Dum_back
+    100036: Dum_top
+    100038: wheel_FL
+    100040: wheel_FR
+    100042: wheel_RL
+    100044: wheel_RR
+    400000: Box008
+    400002: //RootNode
+    400004: Object001
+    400006: Box005
+    400008: Box006
+    400010: Cylinder002
+    400012: wheel_race
+    400014: wheel_race001
+    400016: Object002
+    400018: Object003
+    400020: 119
+    400022: Box010
+    400024: Object005
+    400026: Object006
+    400028: Object009
+    400030: Object007
+    400032: car001
+    400034: Dum_back
+    400036: Dum_top
+    400038: wheel_FL
+    400040: wheel_FR
+    400042: wheel_RL
+    400044: wheel_RR
+    2300000: Box008
+    2300002: Object001
+    2300004: //RootNode
+    2300006: Box005
+    2300008: Box006
+    2300010: Cylinder002
+    2300012: wheel_race
+    2300014: wheel_race001
+    2300016: Object002
+    2300018: Object003
+    2300020: 119
+    2300022: Box010
+    2300024: Object005
+    2300026: Object006
+    2300028: Object009
+    2300030: Object007
+    2300032: car001
+    3300000: Box008
+    3300002: Object001
+    3300004: //RootNode
+    3300006: Box005
+    3300008: Box006
+    3300010: Cylinder002
+    3300012: wheel_race
+    3300014: wheel_race001
+    3300016: Object002
+    3300018: Object003
+    3300020: 119
+    3300022: Box010
+    3300024: Object005
+    3300026: Object006
+    3300028: Object009
+    3300030: Object007
+    3300032: car001
+    4300000: Box008
+    4300002: Object001
+    4300004: wheel_race
+    4300006: Box005
+    4300008: Box006
+    4300010: Cylinder002
+    4300012: wheel_race001
+    4300014: Object002
+    4300016: Object003
+    4300018: 119
+    4300020: Object005
+    4300022: Object006
+    4300024: Box010
+    4300026: Object009
+    4300028: Object007
+    4300030: car001
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: model/closer_body.asset
+  assetBundleVariant: 

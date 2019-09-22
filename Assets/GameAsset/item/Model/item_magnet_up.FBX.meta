@@ -1,0 +1,278 @@
+fileFormatVersion: 2
+guid: 27b709d9782a0b0439ed55e631fed2ab
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cylinder008
+    100002: Cylinder009
+    100004: Cylinder010
+    100006: Cylinder011
+    100008: //RootNode
+    100010: Cylinder012
+    100012: Cylinder013
+    100014: Cylinder014
+    100016: Dum_magnet
+    100018: Dummy008
+    100020: Object007
+    100022: Object008
+    100024: Object009
+    100026: Object010
+    100028: Object015
+    100030: cyl_L
+    100032: cyl_R
+    100034: cyl_up
+    100036: magnet_LD
+    100038: magnet_LU
+    100040: magnet_RD
+    100042: magnet_RU
+    100044: nemo
+    100046: nemo_lightning
+    400000: Cylinder008
+    400002: Cylinder009
+    400004: Cylinder010
+    400006: Cylinder011
+    400008: //RootNode
+    400010: Cylinder012
+    400012: Cylinder013
+    400014: Cylinder014
+    400016: Dum_magnet
+    400018: Dummy008
+    400020: Object007
+    400022: Object008
+    400024: Object009
+    400026: Object010
+    400028: Object015
+    400030: cyl_L
+    400032: cyl_R
+    400034: cyl_up
+    400036: magnet_LD
+    400038: magnet_LU
+    400040: magnet_RD
+    400042: magnet_RU
+    400044: nemo
+    400046: nemo_lightning
+    2300000: Cylinder008
+    2300002: Cylinder009
+    2300004: Cylinder010
+    2300006: Cylinder011
+    2300008: Cylinder012
+    2300010: Cylinder013
+    2300012: Cylinder014
+    2300014: Object007
+    2300016: Object008
+    2300018: Object009
+    2300020: Object010
+    2300022: Object015
+    2300024: cyl_L
+    2300026: cyl_R
+    2300028: cyl_up
+    2300030: magnet_LD
+    2300032: magnet_LU
+    2300034: magnet_RD
+    2300036: magnet_RU
+    2300038: nemo
+    2300040: nemo_lightning
+    3300000: Cylinder008
+    3300002: Cylinder009
+    3300004: Cylinder010
+    3300006: Cylinder011
+    3300008: Cylinder012
+    3300010: Cylinder013
+    3300012: Cylinder014
+    3300014: Object007
+    3300016: Object008
+    3300018: Object009
+    3300020: Object010
+    3300022: Object015
+    3300024: cyl_L
+    3300026: cyl_R
+    3300028: cyl_up
+    3300030: magnet_LD
+    3300032: magnet_LU
+    3300034: magnet_RD
+    3300036: magnet_RU
+    3300038: nemo
+    3300040: nemo_lightning
+    4300000: Cylinder008
+    4300002: Cylinder009
+    4300004: Cylinder010
+    4300006: Cylinder011
+    4300008: Cylinder012
+    4300010: Cylinder013
+    4300012: Cylinder014
+    4300014: Object007
+    4300016: Object010
+    4300018: Object009
+    4300020: Object008
+    4300022: Object015
+    4300024: magnet_RU
+    4300026: cyl_up
+    4300028: cyl_R
+    4300030: magnet_LD
+    4300032: magnet_RD
+    4300034: magnet_LU
+    4300036: cyl_L
+    4300038: nemo
+    4300040: nemo_lightning
+    7400000: show
+    7400002: use
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: show
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: magnet_LD
+        weight: 1
+      - path: magnet_LU
+        weight: 1
+      - path: magnet_LU/cyl_L
+        weight: 1
+      - path: magnet_RD
+        weight: 1
+      - path: magnet_RU
+        weight: 1
+      - path: magnet_RU/cyl_R
+        weight: 1
+      - path: magnet_RU/cyl_up
+        weight: 1
+      - path: nemo
+        weight: 1
+      - path: Object015
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: use
+      takeName: Take 001
+      firstFrame: 32
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: magnet_LD
+        weight: 1
+      - path: magnet_LU
+        weight: 1
+      - path: magnet_LU/cyl_L
+        weight: 1
+      - path: magnet_RD
+        weight: 1
+      - path: magnet_RU
+        weight: 1
+      - path: magnet_RU/cyl_R
+        weight: 1
+      - path: magnet_RU/cyl_up
+        weight: 1
+      - path: nemo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,609 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: mainmenu_friendlist_show
+  serializedVersion: 6
+  m_Legacy: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -305, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: -559038745
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: 
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: -559038745
+      - serializedVersion: 2
+        time: 0.5
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: -559038745
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: 
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -980
+        inSlope: 1299.9974
+        outSlope: 1299.9974
+        tangentMode: 34
+      - serializedVersion: 2
+        time: 0.033333335
+        value: -936.66675
+        inSlope: 1300.0012
+        outSlope: 1300.0012
+        tangentMode: 34
+      - serializedVersion: 2
+        time: 0.05
+        value: -915
+        inSlope: 1300.0012
+        outSlope: 1300.0012
+        tangentMode: 34
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -871.66675
+        inSlope: 1299.9988
+        outSlope: 1299.9988
+        tangentMode: 34
+      - serializedVersion: 2
+        time: 0.48333332
+        value: -351.66672
+        inSlope: 1300.0001
+        outSlope: 1300.0001
+        tangentMode: 34
+      - serializedVersion: 2
+        time: 0.5
+        value: -330.00003
+        inSlope: 650.00006
+        outSlope: 650.00006
+        tangentMode: 34
+      - serializedVersion: 2
+        time: 0.53333336
+        value: -330.00003
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: worldToLocal.e03
+    path: UIPanel(ClippedView)
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: worldToLocal.e03
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 34
+      - serializedVersion: 2
+        time: 0.5
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: mAlpha
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 360
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      - serializedVersion: 2
+        time: 0.5
+        value: 360
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: worldToLocal.e00
+    path: Child/UIPanel(ClippedView)
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -330.00003
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      - serializedVersion: 2
+        time: 0.5
+        value: -330.00003
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: worldToLocal.e03
+    path: Child/UIPanel(ClippedView)
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: worldToLocal.e00
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.5
+        value: 360
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: worldToLocal.e11
+    path: Child/UIPanel(ClippedView)
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.5
+        value: 14.474453
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: worldToLocal.e13
+    path: Child/UIPanel(ClippedView)
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.5
+        value: 360
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: worldToLocal.e11
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.5
+        value: -0.52554744
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: worldToLocal.e13
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 1
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -980
+        inSlope: 1299.9974
+        outSlope: 1299.9974
+        tangentMode: 34
+      - serializedVersion: 2
+        time: 0.033333335
+        value: -936.66675
+        inSlope: 1300.0012
+        outSlope: 1300.0012
+        tangentMode: 34
+      - serializedVersion: 2
+        time: 0.05
+        value: -915
+        inSlope: 1300.0012
+        outSlope: 1300.0012
+        tangentMode: 34
+      - serializedVersion: 2
+        time: 0.083333336
+        value: -871.66675
+        inSlope: 1299.9988
+        outSlope: 1299.9988
+        tangentMode: 34
+      - serializedVersion: 2
+        time: 0.48333332
+        value: -351.66672
+        inSlope: 1300.0001
+        outSlope: 1300.0001
+        tangentMode: 34
+      - serializedVersion: 2
+        time: 0.5
+        value: -330.00003
+        inSlope: 650.00006
+        outSlope: 650.00006
+        tangentMode: 34
+      - serializedVersion: 2
+        time: 0.53333336
+        value: -330.00003
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: worldToLocal.e03
+    path: UIPanel(ClippedView)
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -305
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: worldToLocal.e03
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 34
+      - serializedVersion: 2
+        time: 0.5
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: mAlpha
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      - serializedVersion: 2
+        time: 0.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      - serializedVersion: 2
+        time: 0.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 360
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      - serializedVersion: 2
+        time: 0.5
+        value: 360
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: worldToLocal.e00
+    path: Child/UIPanel(ClippedView)
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -330.00003
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      - serializedVersion: 2
+        time: 0.5
+        value: -330.00003
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: worldToLocal.e03
+    path: Child/UIPanel(ClippedView)
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: worldToLocal.e00
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.5
+        value: 360
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: worldToLocal.e11
+    path: Child/UIPanel(ClippedView)
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.5
+        value: 14.474453
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: worldToLocal.e13
+    path: Child/UIPanel(ClippedView)
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.5
+        value: 360
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: worldToLocal.e11
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0.5
+        value: -0.52554744
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: worldToLocal.e13
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []

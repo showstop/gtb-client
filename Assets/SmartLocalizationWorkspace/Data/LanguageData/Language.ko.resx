@@ -1,0 +1,1200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="Car.Acceleration" xml:space="preserve">
+		<value>가속도</value>
+	</data>
+	<data name="Car.Amber" xml:space="preserve">
+		<value>앰버</value>
+	</data>
+	<data name="Car.Battery" xml:space="preserve">
+		<value>배터리</value>
+	</data>
+	<data name="Car.BatteryDesc" xml:space="preserve">
+		<value>차량의 HP를 담당하는 부품으로\n좋은 배터리를 사용할 수록\n차량의 체력이 증가합니다.</value>
+	</data>
+	<data name="Car.BodyKit" xml:space="preserve">
+		<value>바디킷</value>
+	</data>
+	<data name="Car.BodyKitDesc" xml:space="preserve">
+		<value>차량의 강도를 담당하는 부품으로\n좋은 바디킷을 사용할 수록\n차량의 충돌 데미지가 증가합니다.</value>
+	</data>
+	<data name="Car.Bruner" xml:space="preserve">
+		<value>브루너</value>
+	</data>
+	<data name="Car.Buggy" xml:space="preserve">
+		<value>버기</value>
+	</data>
+	<data name="Car.Closer" xml:space="preserve">
+		<value>클로저</value>
+	</data>
+	<data name="Car.Collin" xml:space="preserve">
+		<value>컬린</value>
+	</data>
+	<data name="Car.Formula" xml:space="preserve">
+		<value>포뮬러</value>
+	</data>
+	<data name="Car.HP" xml:space="preserve">
+		<value>HP</value>
+	</data>
+	<data name="Car.Loco" xml:space="preserve">
+		<value>로코</value>
+	</data>
+	<data name="Car.Mighty" xml:space="preserve">
+		<value>마이티</value>
+	</data>
+	<data name="Car.MiniCoop" xml:space="preserve">
+		<value>미니쿱</value>
+	</data>
+	<data name="Car.Motor" xml:space="preserve">
+		<value>모터</value>
+	</data>
+	<data name="Car.MotorDesc" xml:space="preserve">
+		<value>차량의 속도를 담당하는 부품으로\n좋은 모터를 사용할 수록\n차량의 최고속도가 증가합니다.</value>
+	</data>
+	<data name="Car.NormalMaterial" xml:space="preserve">
+		<value>일반재료</value>
+	</data>
+	<data name="Car.PartsTuning" xml:space="preserve">
+		<value>부품튜닝</value>
+	</data>
+	<data name="Car.PleaseEquipSpecialAbility" xml:space="preserve">
+		<value>특수 능력을
+장착 하세요.</value>
+	</data>
+	<data name="Car.Poli" xml:space="preserve">
+		<value>폴리</value>
+	</data>
+	<data name="Car.Power" xml:space="preserve">
+		<value>강도</value>
+	</data>
+	<data name="Car.Shark" xml:space="preserve">
+		<value>샤크</value>
+	</data>
+	<data name="Car.Skill" xml:space="preserve">
+		<value>보유스킬</value>
+	</data>
+	<data name="Car.SpecialAbility.AutoCharge" xml:space="preserve">
+		<value>자동충전</value>
+	</data>
+	<data name="Car.SpecialAbility.AutoChargeDesc" xml:space="preserve">
+		<value>매 {0}m 이동시
+HP 1회복</value>
+	</data>
+	<data name="Car.SpecialAbility.CanBuyOtherSlotOpen" xml:space="preserve">
+		<value>{0}번 슬롯 오픈후 가능</value>
+	</data>
+	<data name="Car.SpecialAbility.LevelUp" xml:space="preserve">
+		<value>레벨</value>
+	</data>
+	<data name="Car.SpecialAbility.LuckyDice" xml:space="preserve">
+		<value>행운의주사위</value>
+	</data>
+	<data name="Car.SpecialAbility.LuckyDiceDesc" xml:space="preserve">
+		<value>차량 보유 스킬 관련 아이템
+획득 확률 {0}% 증가</value>
+	</data>
+	<data name="Car.SpecialAbility.MultiTools" xml:space="preserve">
+		<value>만능도구</value>
+	</data>
+	<data name="Car.SpecialAbility.MultiToolsDesc" xml:space="preserve">
+		<value>차량 피폭시 
+회복 시간 {0}초 단축</value>
+	</data>
+	<data name="Car.SpecialAbility.PowerSteering" xml:space="preserve">
+		<value>파워스티어링</value>
+	</data>
+	<data name="Car.SpecialAbility.PowerSteeringDesc" xml:space="preserve">
+		<value>레인 이동 속도 
+{0}% 증가</value>
+	</data>
+	<data name="Car.SpecialAbility.RearSensor" xml:space="preserve">
+		<value>후방감지기</value>
+	</data>
+	<data name="Car.SpecialAbility.RearSensorDesc" xml:space="preserve">
+		<value>후방 {0}m 이내의
+위험 아이템 감지</value>
+	</data>
+	<data name="Car.SpecialAbility.ResearchBumper" xml:space="preserve">
+		<value>범퍼연구</value>
+	</data>
+	<data name="Car.SpecialAbility.ResearchBumperDesc" xml:space="preserve">
+		<value>충돌 데미지 +{0} </value>
+	</data>
+	<data name="Car.SpecialAbility.ResearchGunPowder" xml:space="preserve">
+		<value>화약연구</value>
+	</data>
+	<data name="Car.SpecialAbility.ResearchGunPowderDesc" xml:space="preserve">
+		<value>아이템 데미지 {0}% 증가</value>
+	</data>
+	<data name="Car.SpecialAbility.ShouldUpgrade" xml:space="preserve">
+		<value>&lt;color=yellow&gt;{0}&lt;/color&gt;를(을) 레벨업 하시겠습니까?</value>
+	</data>
+	<data name="Car.SpecialAbility.Slot2" xml:space="preserve">
+		<value>특수 능력 슬롯</value>
+	</data>
+	<data name="Car.SpecialAbility.Slot3" xml:space="preserve">
+		<value>특수 능력 슬롯</value>
+	</data>
+	<data name="Car.SpecialAbility.Stacker" xml:space="preserve">
+		<value>스태커</value>
+	</data>
+	<data name="Car.SpecialAbility.StackerDesc" xml:space="preserve">
+		<value>획득 아이템\n{0}개 증가</value>
+	</data>
+	<data name="Car.SpecialAbility.Upgrade" xml:space="preserve">
+		<value>특수 능력 업그레이드</value>
+	</data>
+	<data name="Car.SpecialMaterial" xml:space="preserve">
+		<value>특수재료</value>
+	</data>
+	<data name="Car.Speed" xml:space="preserve">
+		<value>속도</value>
+	</data>
+	<data name="Car.Supark" xml:space="preserve">
+		<value>수박</value>
+	</data>
+	<data name="Car.Suspension" xml:space="preserve">
+		<value>서스펜션</value>
+	</data>
+	<data name="Car.SuspensionDesc" xml:space="preserve">
+		<value>차량의 가속도를 담당하는 부품으로\n좋은 서스펜션을 사용할 수록\n차량의 가속도가 증가합니다.</value>
+	</data>
+	<data name="Car.Swagger" xml:space="preserve">
+		<value>스웨거</value>
+	</data>
+	<data name="Car.Turbin" xml:space="preserve">
+		<value>터빈</value>
+	</data>
+	<data name="Format.CarPackage" xml:space="preserve">
+		<value>&lt;color=#ffff00ff&gt;{0}&lt;/color&gt; 패키지</value>
+	</data>
+	<data name="Format.FixedAmountPackage" xml:space="preserve">
+		<value>월정액  &lt;size=34&gt;&lt;color=#ff0000ff&gt;{0}&lt;/color&gt;&lt;/size&gt; 패키지</value>
+	</data>
+	<data name="Format.PackageGiveCacheDaily" xml:space="preserve">
+		<value>&lt;color=#ffff00ff&gt;{0}&lt;/color&gt; 일간 매일
+&lt;color=#ff0000ff&gt;{1}&lt;/color&gt; 캐쉬</value>
+	</data>
+	<data name="Format.PackageGiveCacheImmediately" xml:space="preserve">
+		<value>&lt;size=24&gt;&lt;color=#ff0000ff&gt;{0}&lt;/color&gt;&lt;/size&gt; 캐쉬
+즉시 지급!</value>
+	</data>
+	<data name="Format.TimeRemainUntilProductUpdate" xml:space="preserve">
+		<value>상품 갱신까지 &lt;color=#ffff00ff&gt;{0}&lt;/color&gt; 남음</value>
+	</data>
+	<data name="GameMode.GrandPrix" xml:space="preserve">
+		<value>그랑프리</value>
+	</data>
+	<data name="GameMode.QuickMatch" xml:space="preserve">
+		<value>퀵매치</value>
+	</data>
+	<data name="Glossacry.LevelUp" xml:space="preserve">
+		<value>레벨업</value>
+	</data>
+	<data name="Glossary.Ability" xml:space="preserve">
+		<value>특수능력</value>
+	</data>
+	<data name="Glossary.Advertise" xml:space="preserve">
+		<value>광고</value>
+	</data>
+	<data name="Glossary.Attend" xml:space="preserve">
+		<value>출석보상</value>
+	</data>
+	<data name="Glossary.AttendCheck" xml:space="preserve">
+		<value>출석 체크</value>
+	</data>
+	<data name="Glossary.Cache" xml:space="preserve">
+		<value>캐쉬</value>
+	</data>
+	<data name="Glossary.Cancel" xml:space="preserve">
+		<value>취소</value>
+	</data>
+	<data name="Glossary.CarPieceSelectionCard" xml:space="preserve">
+		<value>차량 조각 선택권</value>
+	</data>
+	<data name="Glossary.Complete" xml:space="preserve">
+		<value>완료</value>
+	</data>
+	<data name="Glossary.Confirm" xml:space="preserve">
+		<value>알림</value>
+	</data>
+	<data name="Glossary.ElapsedTime" xml:space="preserve">
+		<value>경과 시간</value>
+	</data>
+	<data name="Glossary.EstimatedTime" xml:space="preserve">
+		<value>예상 시간</value>
+	</data>
+	<data name="Glossary.Event" xml:space="preserve">
+		<value>이벤트</value>
+	</data>
+	<data name="Glossary.Finish" xml:space="preserve">
+		<value>완료</value>
+	</data>
+	<data name="Glossary.GameMoney" xml:space="preserve">
+		<value>골드</value>
+	</data>
+	<data name="Glossary.Garage" xml:space="preserve">
+		<value>차고</value>
+	</data>
+	<data name="Glossary.GetReward" xml:space="preserve">
+		<value>을(를) 획득했습니다.</value>
+	</data>
+	<data name="Glossary.Level" xml:space="preserve">
+		<value>레벨</value>
+	</data>
+	<data name="Glossary.Lobby" xml:space="preserve">
+		<value>로비</value>
+	</data>
+	<data name="Glossary.Mail" xml:space="preserve">
+		<value>메일</value>
+	</data>
+	<data name="Glossary.Make" xml:space="preserve">
+		<value>제작</value>
+	</data>
+	<data name="Glossary.MaxLevel" xml:space="preserve">
+		<value>최대레벨</value>
+	</data>
+	<data name="Glossary.Medal" xml:space="preserve">
+		<value>메달</value>
+	</data>
+	<data name="Glossary.MonthlyAttendanceReward" xml:space="preserve">
+		<value>월간 출석 보상</value>
+	</data>
+	<data name="Glossary.Next" xml:space="preserve">
+		<value>다음</value>
+	</data>
+	<data name="Glossary.Notice" xml:space="preserve">
+		<value>알림</value>
+	</data>
+	<data name="Glossary.OK" xml:space="preserve">
+		<value>확인</value>
+	</data>
+	<data name="Glossary.Progress" xml:space="preserve">
+		<value>진행중</value>
+	</data>
+	<data name="Glossary.Quest" xml:space="preserve">
+		<value>일일퀘스트</value>
+	</data>
+	<data name="Glossary.Register" xml:space="preserve">
+		<value>등록</value>
+	</data>
+	<data name="Glossary.RequestReward" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Glossary.Select" xml:space="preserve">
+		<value>선택</value>
+	</data>
+	<data name="Glossary.Setting" xml:space="preserve">
+		<value>설정</value>
+	</data>
+	<data name="Glossary.Shop" xml:space="preserve">
+		<value>상점</value>
+	</data>
+	<data name="Glossary.Skip" xml:space="preserve">
+		<value>Skip</value>
+	</data>
+	<data name="Glossary.Start" xml:space="preserve">
+		<value>Start</value>
+	</data>
+	<data name="Glossary.Ticket" xml:space="preserve">
+		<value>티</value>
+	</data>
+	<data name="Glossary.Upgrade" xml:space="preserve">
+		<value>업그레이드</value>
+	</data>
+	<data name="GrandPrix.Below" xml:space="preserve">
+		<value>이하</value>
+	</data>
+	<data name="GrandPrix.Demote" xml:space="preserve">
+		<value>강등</value>
+	</data>
+	<data name="GrandPrix.First" xml:space="preserve">
+		<value>1위</value>
+	</data>
+	<data name="GrandPrix.GPPoint" xml:space="preserve">
+		<value>GPPoint</value>
+	</data>
+	<data name="GrandPrix.LeagueInfo" xml:space="preserve">
+		<value>리그 정보</value>
+	</data>
+	<data name="GrandPrix.LessThan50Percent" xml:space="preserve">
+		<value>상위 50% 미만</value>
+	</data>
+	<data name="GrandPrix.ParticipationCount" xml:space="preserve">
+		<value>참가 횟수</value>
+	</data>
+	<data name="GrandPrix.Placing" xml:space="preserve">
+		<value>위</value>
+	</data>
+	<data name="GrandPrix.Point" xml:space="preserve">
+		<value>Point</value>
+	</data>
+	<data name="GrandPrix.Promote" xml:space="preserve">
+		<value>승급</value>
+	</data>
+	<data name="GrandPrix.Ranking" xml:space="preserve">
+		<value>상위</value>
+	</data>
+	<data name="GrandPrix.RepeatRewardList" xml:space="preserve">
+		<value>반복 보상 목록</value>
+	</data>
+	<data name="GrandPrix.RepeatRewardOneOfList" xml:space="preserve">
+		<value>위의 목록 중 1종</value>
+	</data>
+	<data name="GrandPrix.SeasonReward" xml:space="preserve">
+		<value>시즌 보상</value>
+	</data>
+	<data name="GrandPrix.SeasonRewardList" xml:space="preserve">
+		<value>시즌 보상 목록</value>
+	</data>
+	<data name="GrandPrix.SecondToTen" xml:space="preserve">
+		<value>2위 ~ 10위</value>
+	</data>
+	<data name="GrandPrix.Top" xml:space="preserve">
+		<value>상위</value>
+	</data>
+	<data name="GrandPrix.Top10Percent" xml:space="preserve">
+		<value>상위 10%</value>
+	</data>
+	<data name="GrandPrix.Top30Percent" xml:space="preserve">
+		<value>상위 30%</value>
+	</data>
+	<data name="GrandPrix.Top50Percent" xml:space="preserve">
+		<value>상위 50%</value>
+	</data>
+	<data name="Intro.CheckVersion" xml:space="preserve">
+		<value>게임 버전을 확인중입니다.</value>
+	</data>
+	<data name="Intro.DownloadUpdate" xml:space="preserve">
+		<value>게임에 필요한 파일을 다운로드 중입니다.</value>
+	</data>
+	<data name="Intro.LoadData" xml:space="preserve">
+		<value>데이터 로딩중입니다.</value>
+	</data>
+	<data name="Intro.TouchStartGame" xml:space="preserve">
+		<value>터치해서 게임 시작</value>
+	</data>
+	<data name="Login.FaceBook" xml:space="preserve">
+		<value>페이스 북으로 로그인</value>
+	</data>
+	<data name="Login.Guest" xml:space="preserve">
+		<value>게스트 로그인</value>
+	</data>
+	<data name="Medal.Alchemist" xml:space="preserve">
+		<value>연금술사</value>
+	</data>
+	<data name="Medal.AlchemistDesc" xml:space="preserve">
+		<value>아이템 사용
+5,000회</value>
+	</data>
+	<data name="Medal.Always2ndPlace" xml:space="preserve">
+		<value>만년 2위</value>
+	</data>
+	<data name="Medal.Always2ndPlaceDesc" xml:space="preserve">
+		<value>2위(은메달)
+100회</value>
+	</data>
+	<data name="Medal.Always3rdPlace" xml:space="preserve">
+		<value>만년 3위</value>
+	</data>
+	<data name="Medal.Always3rdPlaceDesc" xml:space="preserve">
+		<value>3위(동메달)
+100회</value>
+	</data>
+	<data name="Medal.Antique" xml:space="preserve">
+		<value>골동품</value>
+	</data>
+	<data name="Medal.AntiqueDesc" xml:space="preserve">
+		<value>주행거리
+500,000m</value>
+	</data>
+	<data name="Medal.APieceOfCake" xml:space="preserve">
+		<value>식은 죽 먹기</value>
+	</data>
+	<data name="Medal.APieceOfCakeDesc" xml:space="preserve">
+		<value>연속 1위
+10회</value>
+	</data>
+	<data name="Medal.BeginnerLicense" xml:space="preserve">
+		<value>초보자 라이센스</value>
+	</data>
+	<data name="Medal.BeginnerLicenseDesc" xml:space="preserve">
+		<value>1위(금메달)
+1회</value>
+	</data>
+	<data name="Medal.BrandNew" xml:space="preserve">
+		<value>신차</value>
+	</data>
+	<data name="Medal.BrandNewDesc" xml:space="preserve">
+		<value>주행거리
+10,000m</value>
+	</data>
+	<data name="Medal.BumperCar" xml:space="preserve">
+		<value>범퍼카</value>
+	</data>
+	<data name="Medal.BumperCarDesc" xml:space="preserve">
+		<value>차량 충돌
+1,000ghl</value>
+	</data>
+	<data name="Medal.CatchMeIfYouCan" xml:space="preserve">
+		<value>따라올테면 따라와봐!</value>
+	</data>
+	<data name="Medal.CatchMeIfYouCanDesc" xml:space="preserve">
+		<value>연속 1위
+20회</value>
+	</data>
+	<data name="Medal.Chase" xml:space="preserve">
+		<value>추격</value>
+	</data>
+	<data name="Medal.ChaseDesc" xml:space="preserve">
+		<value>사이렌 부스트 사용시
+다른 차량과 2회 이상 충</value>
+	</data>
+	<data name="Medal.CheerUp" xml:space="preserve">
+		<value>힘을 내!</value>
+	</data>
+	<data name="Medal.CheerUpDesc" xml:space="preserve">
+		<value>연속 꼴지(4위)
+10회</value>
+	</data>
+	<data name="Medal.Collector" xml:space="preserve">
+		<value>수집가</value>
+	</data>
+	<data name="Medal.CollectorDesc" xml:space="preserve">
+		<value>메달 30개 수집</value>
+	</data>
+	<data name="Medal.Defender" xml:space="preserve">
+		<value>디펜더</value>
+	</data>
+	<data name="Medal.DefenderDesc" xml:space="preserve">
+		<value>한 경기에서 Brand New로
+아이템 방어 3</value>
+	</data>
+	<data name="Medal.Destroyer" xml:space="preserve">
+		<value>파괴자</value>
+	</data>
+	<data name="Medal.DestroyerDesc" xml:space="preserve">
+		<value>한 경기에서 파괴전차
+3회 사용</value>
+	</data>
+	<data name="Medal.Drown" xml:space="preserve">
+		<value>물귀신</value>
+	</data>
+	<data name="Medal.DrownDesc" xml:space="preserve">
+		<value>물폭탄 발동시
+2대 이상의 차량에게 효과 적용</value>
+	</data>
+	<data name="Medal.ElectricShock" xml:space="preserve">
+		<value>감전</value>
+	</data>
+	<data name="Medal.ElectricShockDesc" xml:space="preserve">
+		<value>라이트닝 체인 사용시
+2대 이상의 차량에게 효과 적용</value>
+	</data>
+	<data name="Medal.GetMedalReward" xml:space="preserve">
+		<value>메달 보상을 획득했습니다.</value>
+	</data>
+	<data name="Medal.GetOut" xml:space="preserve">
+		<value>길을 비켜라!</value>
+	</data>
+	<data name="Medal.GetOutDesc" xml:space="preserve">
+		<value>차량 충돌
+1,000회</value>
+	</data>
+	<data name="Medal.Gosh" xml:space="preserve">
+		<value>까비!</value>
+	</data>
+	<data name="Medal.GoshDesc" xml:space="preserve">
+		<value>아쉬운 2위 1회
+(1위와 0.5초 차이 이내로 2위)</value>
+	</data>
+	<data name="Medal.Grenade" xml:space="preserve">
+		<value>수류탄</value>
+	</data>
+	<data name="Medal.GrenadeDesc" xml:space="preserve">
+		<value>상대 차량 폭파
+10회</value>
+	</data>
+	<data name="Medal.GTB1License" xml:space="preserve">
+		<value>GTB-1 라이센스</value>
+	</data>
+	<data name="Medal.GTB1LicenseDesc" xml:space="preserve">
+		<value>1위(금메달)
+100회</value>
+	</data>
+	<data name="Medal.GTB2License" xml:space="preserve">
+		<value>GTB-2 라이센스</value>
+	</data>
+	<data name="Medal.GTB2LicenseDesc" xml:space="preserve">
+		<value>1위(금메달)
+10회</value>
+	</data>
+	<data name="Medal.HereWeGo" xml:space="preserve">
+		<value>출동이다!</value>
+	</data>
+	<data name="Medal.HereWeGoDesc" xml:space="preserve">
+		<value>한 경기에서 긴급 출동
+발동 3회</value>
+	</data>
+	<data name="Medal.Magician" xml:space="preserve">
+		<value>마법사</value>
+	</data>
+	<data name="Medal.MagicianDesc" xml:space="preserve">
+		<value>아이템 사용
+1,000회</value>
+	</data>
+	<data name="Medal.Master" xml:space="preserve">
+		<value>마스터</value>
+	</data>
+	<data name="Medal.MasterDesc" xml:space="preserve">
+		<value>플레이 1,000회</value>
+	</data>
+	<data name="Medal.Missile" xml:space="preserve">
+		<value>미사일</value>
+	</data>
+	<data name="Medal.MissileDesc" xml:space="preserve">
+		<value>상대 차량 폭파
+100회</value>
+	</data>
+	<data name="Medal.MrFreeze" xml:space="preserve">
+		<value>미스터 프리즈</value>
+	</data>
+	<data name="Medal.MrFreezeDesc" xml:space="preserve">
+		<value>한 경기에서 얼음길
+설치 3</value>
+	</data>
+	<data name="Medal.NuclearBomb" xml:space="preserve">
+		<value>핵폭탄</value>
+	</data>
+	<data name="Medal.NuclearBombDesc" xml:space="preserve">
+		<value>상대 차량 폭파
+100회</value>
+	</data>
+	<data name="Medal.OneShotOneKill" xml:space="preserve">
+		<value>1위(금메달)
+1,000회</value>
+	</data>
+	<data name="Medal.OneShotOneKillDesc" xml:space="preserve">
+		<value>다연장 로켓포로
+최대 HP 차량 한번에 폭파</value>
+	</data>
+	<data name="Medal.Ordinary" xml:space="preserve">
+		<value>서민</value>
+	</data>
+	<data name="Medal.OrdinaryDesc" xml:space="preserve">
+		<value>한 경기에서 깜짝 상자
+3회 발동</value>
+	</data>
+	<data name="Medal.Overwhelm" xml:space="preserve">
+		<value>압도</value>
+	</data>
+	<data name="Medal.OverwhelmDesc" xml:space="preserve">
+		<value>압도적인 1위 1회
+(2위와의 거리차이가 30m 이상)</value>
+	</data>
+	<data name="Medal.Poor" xml:space="preserve">
+		<value>가난뱅이</value>
+	</data>
+	<data name="Medal.PoorDesc" xml:space="preserve">
+		<value>10,000 골드 획득</value>
+	</data>
+	<data name="Medal.Richman" xml:space="preserve">
+		<value>부자</value>
+	</data>
+	<data name="Medal.RichmanDesc" xml:space="preserve">
+		<value>1,000,000 골드 획득</value>
+	</data>
+	<data name="Medal.Rookie" xml:space="preserve">
+		<value>루키</value>
+	</data>
+	<data name="Medal.RookieDesc" xml:space="preserve">
+		<value>플레이 5회</value>
+	</data>
+	<data name="Medal.RunawayTrain" xml:space="preserve">
+		<value>폭주</value>
+	</data>
+	<data name="Medal.RunawayTrainDesc" xml:space="preserve">
+		<value>한 경기에서 폭주 기관차
+3회 발동</value>
+	</data>
+	<data name="Medal.Safety" xml:space="preserve">
+		<value>안전제일</value>
+	</data>
+	<data name="Medal.SafetyDesc" xml:space="preserve">
+		<value>게임 도중 차량 폭파 0회
+1회</value>
+	</data>
+	<data name="Medal.SpeedMania" xml:space="preserve">
+		<value>속도광</value>
+	</data>
+	<data name="Medal.SpeedManiaDesc" xml:space="preserve">
+		<value>질주 본능 유지 시간 동안
+속도 관련 아이템 2회 방어</value>
+	</data>
+	<data name="Medal.Stop" xml:space="preserve">
+		<value>멈춰!</value>
+	</data>
+	<data name="Medal.StopDesc" xml:space="preserve">
+		<value>한 경기에서 바리게이트
+3회 발동</value>
+	</data>
+	<data name="Medal.SuperLicense" xml:space="preserve">
+		<value>슈퍼 라이센스</value>
+	</data>
+	<data name="Medal.SuperLicenseDesc" xml:space="preserve">
+		<value>1위(금메달)
+1,000회</value>
+	</data>
+	<data name="Medal.Surprise" xml:space="preserve">
+		<value>서프라이즈!</value>
+	</data>
+	<data name="Medal.SurpriseDesc" xml:space="preserve">
+		<value>한 경기에서 깜짝 상자
+3회 발동</value>
+	</data>
+	<data name="Medal.TimeTraveler" xml:space="preserve">
+		<value>시간 여행자</value>
+	</data>
+	<data name="Medal.TimeTravelerDesc" xml:space="preserve">
+		<value>한 경기에서 되감기
+3회 발동</value>
+	</data>
+	<data name="Medal.Toddler" xml:space="preserve">
+		<value>걸음마</value>
+	</data>
+	<data name="Medal.ToddlerDesc" xml:space="preserve">
+		<value>아이템 사용
+100회</value>
+	</data>
+	<data name="Medal.Tranquility" xml:space="preserve">
+		<value>평온</value>
+	</data>
+	<data name="Medal.TranquilityDesc" xml:space="preserve">
+		<value>장인의 손길로
+한번에 90이상의 HP 회복</value>
+	</data>
+	<data name="Medal.Used" xml:space="preserve">
+		<value>중고차</value>
+	</data>
+	<data name="Medal.UsedDesc" xml:space="preserve">
+		<value>주행거리
+100,000m</value>
+	</data>
+	<data name="Medal.Veteran" xml:space="preserve">
+		<value>베테랑</value>
+	</data>
+	<data name="Medal.VeteranDesc" xml:space="preserve">
+		<value>플레이
+100회</value>
+	</data>
+	<data name="Medal.WellConnected" xml:space="preserve">
+		<value>마당발</value>
+	</data>
+	<data name="Medal.WellConnectedDesc" xml:space="preserve">
+		<value>게임 친구
+30명</value>
+	</data>
+	<data name="Setting.AIMatching" xml:space="preserve">
+		<value>AI 매칭</value>
+	</data>
+	<data name="Setting.BGM" xml:space="preserve">
+		<value>배경음</value>
+	</data>
+	<data name="Setting.Chinese" xml:space="preserve">
+		<value>中國語</value>
+	</data>
+	<data name="Setting.EffectSound" xml:space="preserve">
+		<value>효과음</value>
+	</data>
+	<data name="Setting.English" xml:space="preserve">
+		<value>English</value>
+	</data>
+	<data name="Setting.Espanol" xml:space="preserve">
+		<value>Espanol</value>
+	</data>
+	<data name="Setting.FacebookLoginReward" xml:space="preserve">
+		<value>페이스북 로그인시 캐쉬 &lt;size=24&gt;&lt;color=#ffff00ff&gt;100개&lt;/color&gt;&lt;/size&gt; 지급!</value>
+	</data>
+	<data name="Setting.German" xml:space="preserve">
+		<value>German</value>
+	</data>
+	<data name="Setting.Japanese" xml:space="preserve">
+		<value>日本語</value>
+	</data>
+	<data name="Setting.Korean" xml:space="preserve">
+		<value>한국어</value>
+	</data>
+	<data name="Setting.Language" xml:space="preserve">
+		<value>언어</value>
+	</data>
+	<data name="Setting.PushAlarm" xml:space="preserve">
+		<value>푸시 알림</value>
+	</data>
+	<data name="Shop.BlackMarket" xml:space="preserve">
+		<value>일반 재료 뽑기</value>
+	</data>
+	<data name="Shop.Buy" xml:space="preserve">
+		<value>구입</value>
+	</data>
+	<data name="Shop.BuyItem" xml:space="preserve">
+		<value>상품을 구매하시겠습니까?</value>
+	</data>
+	<data name="Shop.CacheBonus" xml:space="preserve">
+		<value>캐쉬 보너스</value>
+	</data>
+	<data name="Shop.CacheShop" xml:space="preserve">
+		<value>캐쉬 상점</value>
+	</data>
+	<data name="Shop.CarPieceGacha" xml:space="preserve">
+		<value>차량 조각 뽑기</value>
+	</data>
+	<data name="Shop.CarPieceGachaExplanation" xml:space="preserve">
+		<value>차량 업그레이드에 필요한 조각을 획득합니다.</value>
+	</data>
+	<data name="Shop.CashProduct1Name" xml:space="preserve">
+		<value>300 캐쉬</value>
+	</data>
+	<data name="Shop.CashProduct2Name" xml:space="preserve">
+		<value>530 캐쉬</value>
+	</data>
+	<data name="Shop.CashProduct3Name" xml:space="preserve">
+		<value>1,100 캐쉬</value>
+	</data>
+	<data name="Shop.CashProduct4Name" xml:space="preserve">
+		<value>3,390 캐쉬</value>
+	</data>
+	<data name="Shop.CashProduct5Name" xml:space="preserve">
+		<value>5,750 캐쉬</value>
+	</data>
+	<data name="Shop.CashProduct6Name" xml:space="preserve">
+		<value>12,200 캐쉬</value>
+	</data>
+	<data name="Shop.ChargeCount" xml:space="preserve">
+		<value>충전 횟수</value>
+	</data>
+	<data name="Shop.EveryThingAtOnce" xml:space="preserve">
+		<value>이 모든것을 한번에!</value>
+	</data>
+	<data name="Shop.Gacha" xml:space="preserve">
+		<value>뽑기</value>
+	</data>
+	<data name="Shop.GachaOnce" xml:space="preserve">
+		<value>1회 뽑기</value>
+	</data>
+	<data name="Shop.GachaShop" xml:space="preserve">
+		<value>뽑기 상점</value>
+	</data>
+	<data name="Shop.GachaTenTimes" xml:space="preserve">
+		<value>10회 뽑기</value>
+	</data>
+	<data name="Shop.GameMoneyShop" xml:space="preserve">
+		<value>골드 상점</value>
+	</data>
+	<data name="Shop.GoldBonus" xml:space="preserve">
+		<value>골드 보너스</value>
+	</data>
+	<data name="Shop.GoldProduct1Name" xml:space="preserve">
+		<value>10,000 골드</value>
+	</data>
+	<data name="Shop.GoldProduct2Name" xml:space="preserve">
+		<value>33,000 골드</value>
+	</data>
+	<data name="Shop.GoldProduct3Name" xml:space="preserve">
+		<value>56,000 골드</value>
+	</data>
+	<data name="Shop.GoldProduct4Name" xml:space="preserve">
+		<value>114,000 골드</value>
+	</data>
+	<data name="Shop.GoldProduct5Name" xml:space="preserve">
+		<value>348,000 골드</value>
+	</data>
+	<data name="Shop.GoldProduct6Name" xml:space="preserve">
+		<value>590,000 골드</value>
+	</data>
+	<data name="Shop.GrandPrixTicket" xml:space="preserve">
+		<value>그랑프리 티켓</value>
+	</data>
+	<data name="Shop.GrandPrixTicketProductExplanation" xml:space="preserve">
+		<value>소진된 상태에서만 충전이 가능합니다.
+충전시 5개로 가득 찹니다.
+하루에 10회만 충전이 가능합니다.</value>
+	</data>
+	<data name="Shop.GrandPrixTicketProductName" xml:space="preserve">
+		<value>그랑프리 티켓 x5</value>
+	</data>
+	<data name="Shop.JackInTheBox" xml:space="preserve">
+		<value>590,000 골드</value>
+	</data>
+	<data name="Shop.MaterialGachaExplanation" xml:space="preserve">
+		<value>Parts Tuning에 필요한 일반 재료를 획득합니다.</value>
+	</data>
+	<data name="Shop.NormalBox" xml:space="preserve">
+		<value>일반 상자</value>
+	</data>
+	<data name="Shop.NormalMaterialGacha" xml:space="preserve">
+		<value>일반 재료 뽑기</value>
+	</data>
+	<data name="Shop.OpenBox" xml:space="preserve">
+		<value>상자열기</value>
+	</data>
+	<data name="Shop.Package" xml:space="preserve">
+		<value>패키지</value>
+	</data>
+	<data name="Shop.PackageShop" xml:space="preserve">
+		<value>패키지 상점</value>
+	</data>
+	<data name="Shop.QuickMatchTicketProduct1Name" xml:space="preserve">
+		<value>퀵매치 배터리 x 5</value>
+	</data>
+	<data name="Shop.QuickMatchTicketProduct2Name" xml:space="preserve">
+		<value>퀵매치 배터리 x 27</value>
+	</data>
+	<data name="Shop.QuickMatchTicketProduct3Name" xml:space="preserve">
+		<value>퀵매치 배터리 x 55</value>
+	</data>
+	<data name="Shop.RareBox" xml:space="preserve">
+		<value>고급 상자</value>
+	</data>
+	<data name="Shop.RareMaterialGacha" xml:space="preserve">
+		<value>고급 재료 뽑기</value>
+	</data>
+	<data name="Shop.RareMaterialGachaExplanation" xml:space="preserve">
+		<value>확률적으로 고급 재료를 획득 가능합니다.</value>
+	</data>
+	<data name="Shop.TicketBonus" xml:space="preserve">
+		<value>티켓 보너스</value>
+	</data>
+	<data name="Shop.TicketShop" xml:space="preserve">
+		<value>티켓 상점</value>
+	</data>
+	<data name="SpecialAbility.Equip" xml:space="preserve">
+		<value>장착</value>
+	</data>
+	<data name="Tip.Tip01" xml:space="preserve">
+		<value>차량의 HP가 0이 되면 1초간 멈추게 됩니다!</value>
+	</data>
+	<data name="Tip.Tip02" xml:space="preserve">
+		<value>타이밍을 잘 맞춰서 이동하면 아이템 박스를 2개 획득 가능합니다!</value>
+	</data>
+	<data name="Tip.Tip03" xml:space="preserve">
+		<value>특수 능력인 스태커는 2레벨이 최대 레벨입니다</value>
+	</data>
+	<data name="Tip.Tip04" xml:space="preserve">
+		<value>퀵매치는 등수에 따라 보상 카드가 다릅니다</value>
+	</data>
+	<data name="Tip.Tip05" xml:space="preserve">
+		<value>그랑프리 티켓은 완전히 소진된 경우에만 충전이 가능합니다</value>
+	</data>
+	<data name="Tip.Tip06" xml:space="preserve">
+		<value>연속으로 28일동안 출석하면 추가적인 보상을 획득할 수 있습니다</value>
+	</data>
+	<data name="Tip.Tip07" xml:space="preserve">
+		<value>여러 기록득을 갱신해서 메달을 획득해보세요!</value>
+	</data>
+	<data name="Tip.Tip08" xml:space="preserve">
+		<value>게임 시작전 출전 차량을 변경 할 수 있습니다!</value>
+	</data>
+	<data name="Tip.Tip09" xml:space="preserve">
+		<value>다른 차량과 충돌을 통해서도 데미지를 입힐 수 있습니다.</value>
+	</data>
+	<data name="Tip.Tip10" xml:space="preserve">
+		<value>특수 능력은 스태커가 기본이죠!!</value>
+	</data>
+	<data name="TTIngame.HUD.Item" xml:space="preserve">
+		<value>아이템 사용 버튼과
+현재 아이템의
+이미지를 보여줍니다</value>
+	</data>
+	<data name="TTIngame.HUD.Pause" xml:space="preserve">
+		<value>일시정지 버튼입니다</value>
+	</data>
+	<data name="TTIngame.HUD.Rank" xml:space="preserve">
+		<value>게임 플레이 중 플레이어의 순위를
+보여줍니다</value>
+	</data>
+	<data name="TTIngame.Notice.Ability" xml:space="preserve">
+		<value>모든 차량은 게임에 도움이 되는 스킬을 가지고 있어요
+이번에는 스킬이 발동되는 것을 볼까요?</value>
+	</data>
+	<data name="TTIngame.Notice.AbilityGet" xml:space="preserve">
+		<value>패트리어트 스킬이 발동했네요
+펀치를 더 강력한 패트리어트로 변경해주는 스킬이예요
+사용법은 펀치와 같아요. 사용해볼까요?</value>
+	</data>
+	<data name="TTIngame.Notice.AbilitySuccess" xml:space="preserve">
+		<value>패트리어트처럼 아이템을 강화하는 스킬이외에도
+차량의 상태에 따라 발동되는 스킬들도 있으니
+차량들이 보유한 스킬들을 잘 살펴보세요!</value>
+	</data>
+	<data name="TTIngame.Notice.Collision" xml:space="preserve">
+		<value>아이템 이외에도 다른 차량을 방해하는 방법으로
+다른 차량과 부딪히는 충돌이 있어요.
+충돌을 한번 살펴볼까요?</value>
+	</data>
+	<data name="TTIngame.Notice.CollisionSuccess" xml:space="preserve">
+		<value>다른 차량과 충돌하면 강도에 차이에 따라
+데미지를 입고 순간적으로 속도 저하가 발생해요.
+내 차량의 강도가 낮다면 되도록 충돌을 피하세요!</value>
+	</data>
+	<data name="TTIngame.Notice.HUD" xml:space="preserve">
+		<value>경기와 관련된 정보가 표시되는 공간이예요.
+필요한 정보들이 어디에 표시되는지 확인하세요.</value>
+	</data>
+	<data name="TTIngame.Notice.Intro" xml:space="preserve">
+		<value>무한질주 경쟁! GTB Racing에 오신 걸 환영합니다.
+게임 방법을 간단히 알려드릴께요.</value>
+	</data>
+	<data name="TTIngame.Notice.Item" xml:space="preserve">
+		<value>아이템 박스에서는 게임 플레이에
+유용한 아이템을 획득할 수 있어요.
+마침 앞쪽에 아이템 박스가 보이네요.</value>
+	</data>
+	<data name="TTIngame.Notice.ItemGet" xml:space="preserve">
+		<value>펀치 아이템을 획득했네요.
+펀치는 앞쪽의 차량을 공격해서 데미지를 줄 수 있어요.
+사용해볼까요?</value>
+	</data>
+	<data name="TTIngame.Notice.ItemSuccess" xml:space="preserve">
+		<value>잘하셨어요!
+펀치 이외에도 많은 아이템들이 있으니
+게임을 하면서 천천히 알아가기로 해요.</value>
+	</data>
+	<data name="TTIngame.Notice.LaneChangeLeft" xml:space="preserve">
+		<value>잘하셨어요!
+이번에는 왼쪽 차선으로 변경해 볼까요?</value>
+	</data>
+	<data name="TTIngame.Notice.LaneChangeRight" xml:space="preserve">
+		<value>차선을 변경하려면
+이동하려는 방향으로 화면을 드래그 하면 되요.
+우선 오른쪽 차선으로 변경해 볼까요?</value>
+	</data>
+	<data name="TTIngame.Notice.LaneChangeSuccess" xml:space="preserve">
+		<value>센스가 있으시네요!
+차선 변경은 게임 중 가장 많이 하는 행동이니 잊지마세요!</value>
+	</data>
+	<data name="TTIngame.Notice.TutorialEnd" xml:space="preserve">
+		<value>게임 플레이에 관련된 기본 사항을 모두 배우셨어요!
+제가 작은 선물을 준비했어요.
+다시 메인 화면으로 돌아가 볼까요?</value>
+	</data>
+	<data name="TTIngame.Skip.Notice" xml:space="preserve">
+		<value>튜토리얼을 종료하시겠습니까?</value>
+	</data>
+	<data name="TTIngame.Title.Ability" xml:space="preserve">
+		<value>보유 스킬</value>
+	</data>
+	<data name="TTIngame.Title.Collision" xml:space="preserve">
+		<value>충돌</value>
+	</data>
+	<data name="TTIngame.Title.HUD" xml:space="preserve">
+		<value>HUD</value>
+	</data>
+	<data name="TTIngame.Title.Intro" xml:space="preserve">
+		<value>인트로</value>
+	</data>
+	<data name="TTIngame.Title.Item" xml:space="preserve">
+		<value>아이템</value>
+	</data>
+	<data name="TTIngame.Title.LaneChange" xml:space="preserve">
+		<value>차선 변경</value>
+	</data>
+	<data name="TTIngame.Title.TutorialEnd" xml:space="preserve">
+		<value>튜토리얼 종료</value>
+	</data>
+	<data name="TTLobby.Bottom.Ability" xml:space="preserve">
+		<value>모든 차량에 적용되는
+특수 능력을 관리하세요.</value>
+	</data>
+	<data name="TTLobby.Bottom.Garage" xml:space="preserve">
+		<value>차량 제작, 업그레이드, 부품 튜닝등
+차량을 관리할 수 있어요.</value>
+	</data>
+	<data name="TTLobby.Bottom.Lobby" xml:space="preserve">
+		<value>현재 화면으로 돌아 올 수 있어요.</value>
+	</data>
+	<data name="TTLobby.Bottom.Medal" xml:space="preserve">
+		<value>지정된 기록들을 달성하면 메달과 함께
+보상을 획득 할 수 있어요.</value>
+	</data>
+	<data name="TTLobby.Bottom.Shop" xml:space="preserve">
+		<value>상점에서 필요한 것들을 구입하세요.</value>
+	</data>
+	<data name="TTLobby.CarInfo" xml:space="preserve">
+		<value>현재 선택된 차량의 정보 입니다.</value>
+	</data>
+	<data name="TTLobby.Left.Attend" xml:space="preserve">
+		<value>매일 출석하면 보상을 드려요.</value>
+	</data>
+	<data name="TTLobby.Left.Event" xml:space="preserve">
+		<value>주어진 퀘스트를 해보세요.</value>
+	</data>
+	<data name="TTLobby.Left.Quest" xml:space="preserve">
+		<value>진행되는 이벤트를 확인하세요.</value>
+	</data>
+	<data name="TTLobby.LicenseNotice" xml:space="preserve">
+		<value>게임에서 사용할 닉네임을 정해주세요.</value>
+	</data>
+	<data name="TTLobby.LicenseRegister" xml:space="preserve">
+		<value>라이센스 등록</value>
+	</data>
+	<data name="TTLobby.MatchText" xml:space="preserve">
+		<value>다른 사람들과 순위를 다투는 그랑프리에요.
+그랑프리는 5레벨 이후에 플레이가 가능해요.
+반복 보상 및 시즌 보상이 두둑하니
+꼭 챙겨서 플레이 해보세요!</value>
+	</data>
+	<data name="TTLobby.Notice.Intro" xml:space="preserve">
+		<value>메인 화면도 간단하게 설명 드리겠습니다.</value>
+	</data>
+	<data name="TTLobby.Notice.Start" xml:space="preserve">
+		<value>		! 만나서 반가워요!
+일단 퀵매치를 한번 플레이 해볼까요?</value>
+	</data>
+	<data name="TTLobby.Notice.TutorialEnd" xml:space="preserve">
+		<value>이제는 다른 사람들과 경쟁하면서 게임을 즐겨보세요!</value>
+	</data>
+	<data name="TTLobby.NoticePopup.Guide" xml:space="preserve">
+		<value>이 차량으로 선택하시겠습니까?</value>
+	</data>
+	<data name="TTLobby.Page.TopExplain" xml:space="preserve">
+		<value>게임에 필요한 재화들이 표시됩니다.</value>
+	</data>
+	<data name="TTLobby.Right.Advertise" xml:space="preserve">
+		<value>광고를 통해 재화를 모아보세요.</value>
+	</data>
+	<data name="TTLobby.Right.Mail" xml:space="preserve">
+		<value>선물이나 게임 보상등을 확인하세요.</value>
+	</data>
+	<data name="TTLobby.Right.Setup" xml:space="preserve">
+		<value>편한 게임을 위한 설정을 하세요.</value>
+	</data>
+	<data name="TTLobby.SelectCar" xml:space="preserve">
+		<value>차량 선택</value>
+	</data>
+	<data name="TTLobby.SelectCar.Notice" xml:space="preserve">
+		<value>플레이를 위해 차량을 한대 드리겠습니다.
+아래에서 선택하세요!</value>
+	</data>
+	<data name="TTLobby.Skip.Guide" xml:space="preserve">
+		<value>게임 안내 가이드를 건너 뛰시겠습니까?</value>
+	</data>
+	<data name="TTLobby.Skip.PlayGuide" xml:space="preserve">
+		<value>게임 플레이 가이드를 건너 뛰시겠습니까?</value>
+	</data>
+</root>

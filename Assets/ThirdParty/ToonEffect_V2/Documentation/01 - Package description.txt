@@ -1,0 +1,46 @@
+Toon Effect Volume 2 : Package description
+============================================
+
+In Toon Effect Volume 2 you will find 60 high quality types of sprite sheets(with 512x512
+frames size, 30 > 64 frames, 2048x2048) animations, with various decomposed toon effects! 
+
+Each spritesheet is perfect for creating mobile or tablet lightwork effects and work
+with pseudo 2D and 3D games (think to resize images for mobiles).
+
+Toon Effect Volume 2 comes with a sequencer to help you to create your hown toon effects prefab !
+you can setup  the delay between anims, define start/end colors, speed, position, rotation, scale etc…
+
+You can use the sequencer with our other spritesheet lybraries.
+  
+Package content :
+
+    34 Animated cartoon style in-game texts (FIGHT, START, SHOOT, POOF!, BLAM!, BOOM!, GO, HIT…).
+    11 Decomposed cartoon anims, compose your hown! (smoke, stone , trail, explosion, stars, skulls…).
+    13 Animated cartoon style in-game texts (0 to 10,+1, -1).
+    1 Animated cartoon style trophy cup (cup png alone image included).
+    1 Animated cartoon style trophy flag.
+    2 Looped anims (Cartoon stars & punch).
+    
+Note : The TTF font used in the animations is included…
+
+Screenshot are made from unity (one example scene), easy and ready to use. 
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

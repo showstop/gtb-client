@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &141668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 22487732}
+  - component: {fileID: 22299562}
+  - component: {fileID: 11421648}
+  - component: {fileID: 11450534}
+  m_Layer: 5
+  m_Name: CarName
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &11421648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 550ef33c23ab2334083d607182865c14, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &11450534
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e7c90d754cf8bb4eaf7007e5bb51b1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sprites:
+  - _id: 11100100
+    _sprite: {fileID: 21300000, guid: 3e4d820f7d954614cbc12b40d410504f, type: 3}
+  - _id: 11100200
+    _sprite: {fileID: 21300000, guid: aaabc614a2842354ab501c6e23bb6063, type: 3}
+  - _id: 11100300
+    _sprite: {fileID: 21300000, guid: bb6ab838366afe64bb387f6d4f0c2554, type: 3}
+  - _id: 11200100
+    _sprite: {fileID: 21300000, guid: 550ef33c23ab2334083d607182865c14, type: 3}
+  - _id: 11200200
+    _sprite: {fileID: 21300000, guid: 5165c77d006d43149b7c9f9152b34ba8, type: 3}
+  - _id: 11200300
+    _sprite: {fileID: 21300000, guid: fccf76434f6004741a65daadab4034a0, type: 3}
+  - _id: 11200400
+    _sprite: {fileID: 21300000, guid: a31491eb956126c48854f7e1664bb1a5, type: 3}
+  - _id: 11300100
+    _sprite: {fileID: 21300000, guid: 3fc83296c3ed1b94186956c1b3bcf278, type: 3}
+  - _id: 11300200
+    _sprite: {fileID: 21300000, guid: 9e2f5af1f51bcdf43902fcf2a884a5a3, type: 3}
+  - _id: 11300300
+    _sprite: {fileID: 21300000, guid: f33893716af56194e8da12491e5aa958, type: 3}
+  - _id: 11300400
+    _sprite: {fileID: 21300000, guid: d455ad8b03c749c4582540e7a4393d21, type: 3}
+  - _id: 11300500
+    _sprite: {fileID: 21300000, guid: 49fc4e431dd273641af46f52e70cd60a, type: 3}
+  - _id: 11300600
+    _sprite: {fileID: 21300000, guid: 07d51a6d9ea09ff4181d28c10d0560ea, type: 3}
+  - _id: 11400100
+    _sprite: {fileID: 21300000, guid: c01b21875aeaa2641825fe921fafec57, type: 3}
+  _image: {fileID: 11421648}
+--- !u!222 &22299562
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141668}
+--- !u!224 &22487732
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141668}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -212, y: 0}
+  m_SizeDelta: {x: 256, y: 64}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 141668}
+  m_IsPrefabParent: 1

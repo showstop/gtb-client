@@ -1,0 +1,1526 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400014}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: NcInfoCurve_[ToolCurve]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1002 &100015
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!4 &400014
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1002 &400015
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d0dba4615c71d45bdbfd7c49b539ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_fUserTag: 0
+  m_OnEndAniFunction: OnEndAnimation
+  m_CurveInfoList:
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -1
+        inSlope: .994962335
+        outSlope: .994962335
+        tangentMode: 10
+      - time: 1
+        value: -.00503766537
+        inSlope: .994962335
+        outSlope: .994962335
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 3
+    m_bApplyOption: 00010001
+    m_bRecursively: 0
+    m_fValueScale: 5
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 0
+    m_nSortGroup: 1
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: .00322375959
+        outSlope: .00322375959
+        tangentMode: 10
+      - time: .50057584
+        value: .00161373615
+        inSlope: .00322375959
+        outSlope: 1.99907482
+        tangentMode: 21
+      - time: 1
+        value: 1
+        inSlope: 1.99907482
+        outSlope: 1.99907482
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 4
+    m_bApplyOption: 00000001
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 0}
+    m_nTag: 1
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 0
+    m_ApplyType: 2
+    m_bApplyOption: 00010001
+    m_bRecursively: 0
+    m_fValueScale: 360
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 0}
+    m_nTag: 2
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.78813934e-07
+        inSlope: -4.60621881
+        outSlope: -4.60621881
+        tangentMode: 0
+      - time: .500820339
+        value: -.996077538
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1.78813934e-07
+        inSlope: 4.15525913
+        outSlope: 4.15525913
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 4
+    m_bApplyOption: 00000001
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 0}
+    m_nTag: 3
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 3
+    m_bApplyOption: 01000101
+    m_bRecursively: 0
+    m_fValueScale: 4
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 4
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: .50601238
+        outSlope: .50601238
+        tangentMode: 10
+      - time: .401403129
+        value: .203114957
+        inSlope: 1.07458043
+        outSlope: 3.59760451
+        tangentMode: 1
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 4
+    m_bApplyOption: 00000001
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 0}
+    m_nTag: 5
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 1.99085879
+        outSlope: 1.99085879
+        tangentMode: 10
+      - time: .50057584
+        value: .996575832
+        inSlope: 1.99085879
+        outSlope: .00685623148
+        tangentMode: 21
+      - time: 1
+        value: 1
+        inSlope: .00685623148
+        outSlope: .00685623148
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 4
+    m_bApplyOption: 01010101
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: .307692289, y: .491975725, z: 1, w: 0}
+    m_nTag: 6
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 10
+      - time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 3
+    m_bApplyOption: 01000101
+    m_bRecursively: 0
+    m_fValueScale: 2
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 7
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 4
+    m_bApplyOption: 00000001
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 0}
+    m_nTag: 8
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 4
+    m_bApplyOption: 00000001
+    m_bRecursively: 1
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 0}
+    m_nTag: 9
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+      - time: .207107574
+        value: .798117101
+        inSlope: .342099696
+        outSlope: .342099696
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 3
+    m_bApplyOption: 01000101
+    m_bRecursively: 0
+    m_fValueScale: 2
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 10
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 0
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 10
+      - time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 3
+    m_bApplyOption: 00010001
+    m_bRecursively: 0
+    m_fValueScale: 5
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 11
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 10
+      - time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 10
+      m_PreInfinity: 1
+      m_PostInfinity: 1
+    m_ApplyType: 2
+    m_bApplyOption: 00010001
+    m_bRecursively: 0
+    m_fValueScale: 180
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 0}
+    m_nTag: 12
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.00503778458
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+      - time: .785690546
+        value: 1
+        inSlope: -.450785756
+        outSlope: -.450785756
+        tangentMode: 0
+      - time: 1
+        value: .619647384
+        inSlope: -1.7747823
+        outSlope: -1.7747823
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 3
+    m_bApplyOption: 01000101
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 13
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .0025190711
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .165953949
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .334123224
+        value: .503778458
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .501184762
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .668246448
+        value: .503619432
+        inSlope: -.00268220901
+        outSlope: -.00268220901
+        tangentMode: 0
+      - time: .834918201
+        value: .999530911
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: .0025190711
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 3
+    m_bApplyOption: 00010001
+    m_bRecursively: 0
+    m_fValueScale: 5
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 14
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.00251877308
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: -.00251877308
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 1
+    m_bApplyOption: 00010000
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 15
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.00503766537
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: -.00503766537
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 1
+      m_PostInfinity: 1
+    m_ApplyType: 2
+    m_bApplyOption: 00010001
+    m_bRecursively: 0
+    m_fValueScale: 360
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 16
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: -.0759265795
+        outSlope: -.0759265795
+        tangentMode: 0
+      - time: .203553066
+        value: .901391625
+        inSlope: .342099696
+        outSlope: .342099696
+        tangentMode: 0
+      - time: .795499742
+        value: .902161241
+        inSlope: -.519108832
+        outSlope: -1.38118863
+        tangentMode: 1
+      - time: 1
+        value: .00251904875
+        inSlope: 3.01909245e-06
+        outSlope: 3.01909245e-06
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 3
+    m_bApplyOption: 00010001
+    m_bRecursively: 0
+    m_fValueScale: 10
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 17
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .0995260701
+        value: .00503796153
+        inSlope: 4.78336668
+        outSlope: 4.78336668
+        tangentMode: 0
+      - time: .499635518
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .904028416
+        value: 1.78813934e-07
+        inSlope: -4.88966894
+        outSlope: -4.88966894
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 3
+    m_bApplyOption: 01000000
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 18
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 0
+      - time: .5
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 0
+        inSlope: -1
+        outSlope: -1
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 1
+    m_bApplyOption: 00010001
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 19
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.79745257e-07
+        inSlope: -2.4433465
+        outSlope: -2.4433465
+        tangentMode: 10
+      - time: .250778139
+        value: -.612737715
+        inSlope: -.982773006
+        outSlope: -.723134577
+        tangentMode: 1
+      - time: 1
+        value: -.785894036
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 3
+    m_bApplyOption: 01000100
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 20
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.79745257e-07
+        inSlope: -1.63159764
+        outSlope: -1.63159764
+        tangentMode: 10
+      - time: .374000877
+        value: -.610218763
+        inSlope: -.956114769
+        outSlope: -.956114769
+        tangentMode: 10
+      - time: 1
+        value: -.785894036
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 3
+    m_bApplyOption: 01000100
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 21
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 0
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.78813934e-07
+        inSlope: 4.78336668
+        outSlope: 4.78336668
+        tangentMode: 0
+      - time: .499635518
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1.78813934e-07
+        inSlope: -4.88966894
+        outSlope: -4.88966894
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 3
+    m_bApplyOption: 01000000
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 22
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2.98023224e-08
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .367298573
+        value: -.100755647
+        inSlope: -1.27178276
+        outSlope: -1.27178276
+        tangentMode: 0
+      - time: 1
+        value: -.756705284
+        inSlope: .067518115
+        outSlope: .067518115
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 3
+    m_bApplyOption: 01000100
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 23
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .0025190711
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: -.997480929
+        inSlope: -2
+        outSlope: -2
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 3
+    m_bApplyOption: 01000101
+    m_bRecursively: 0
+    m_fValueScale: 10
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 24
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2.98023224e-08
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .491706192
+        value: -.163727939
+        inSlope: -.850377262
+        outSlope: -2.88031554
+        tangentMode: 1
+      - time: 1
+        value: -.995999932
+        inSlope: .067518115
+        outSlope: .067518115
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 3
+    m_bApplyOption: 01000000
+    m_bRecursively: 0
+    m_fValueScale: .5
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 25
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .0025190711
+        inSlope: -1.00251913
+        outSlope: -1.00251913
+        tangentMode: 10
+      - time: 1
+        value: -1
+        inSlope: -1.00251913
+        outSlope: -1.00251913
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 3
+    m_bApplyOption: 01000100
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 26
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.78813934e-07
+        inSlope: -3.43422341
+        outSlope: -3.43422341
+        tangentMode: 0
+      - time: 1
+        value: -.999999821
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 3
+    m_bApplyOption: 01000100
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 27
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 2.98023224e-08
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: -1.99199998
+        tangentMode: 17
+      - time: 1
+        value: -.995999992
+        inSlope: -1.99199998
+        outSlope: -1.99199998
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 4
+    m_bApplyOption: 00000001
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: .307692289, y: .491975725, z: 1, w: .501960814}
+    m_nTag: 28
+    m_nSortGroup: 2
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -1.99447548
+        outSlope: -1.99447548
+        tangentMode: 10
+      - time: .50057584
+        value: .00161373615
+        inSlope: -1.99447548
+        outSlope: 1.99907482
+        tangentMode: 21
+      - time: 1
+        value: 1
+        inSlope: 1.99907482
+        outSlope: 1.99907482
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 4
+    m_bApplyOption: 00000001
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 0}
+    m_nTag: 29
+    m_nSortGroup: 3
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -5.3148675
+        outSlope: -5.3148675
+        tangentMode: 0
+      - time: .40010944
+        value: .0114789577
+        inSlope: -.0152609032
+        outSlope: 2.85867763
+        tangentMode: 1
+      - time: 1
+        value: 1
+        inSlope: 2.95919563e-06
+        outSlope: 2.95919563e-06
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 4
+    m_bApplyOption: 00000001
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 0}
+    m_nTag: 30
+    m_nSortGroup: 3
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .0983412415
+        value: .994962215
+        inSlope: -5.3148675
+        outSlope: -5.3148675
+        tangentMode: 0
+      - time: .40010944
+        value: .0114789577
+        inSlope: -.0152609032
+        outSlope: 4.19347906
+        tangentMode: 1
+      - time: .763944745
+        value: 1
+        inSlope: .0470330119
+        outSlope: .0470330119
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 2.95919563e-06
+        outSlope: 2.95919563e-06
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 4
+    m_bApplyOption: 00000001
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 0}
+    m_nTag: 31
+    m_nSortGroup: 3
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -5.3148675
+        outSlope: -5.3148675
+        tangentMode: 0
+      - time: .40010944
+        value: .0114789577
+        inSlope: -.0152609032
+        outSlope: 1.65838921
+        tangentMode: 1
+      - time: 1
+        value: 1
+        inSlope: 1.77162361
+        outSlope: 1.77162361
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 4
+    m_bApplyOption: 00000001
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 0}
+    m_nTag: 32
+    m_nSortGroup: 3
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .500820339
+        value: .00392228365
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 1
+    m_bApplyOption: 00010000
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 33
+    m_nSortGroup: 3
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .0983412415
+        value: .994962215
+        inSlope: -5.3148675
+        outSlope: -5.3148675
+        tangentMode: 0
+      - time: .40010944
+        value: .0114789577
+        inSlope: -.0152609032
+        outSlope: 2.85867763
+        tangentMode: 1
+      - time: 1
+        value: 1
+        inSlope: 2.95919563e-06
+        outSlope: 2.95919563e-06
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 4
+    m_bApplyOption: 00000001
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 0}
+    m_nTag: 34
+    m_nSortGroup: 3
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -4.60621881
+        outSlope: -4.60621881
+        tangentMode: 0
+      - time: .202242136
+        value: .102159046
+        inSlope: -1.30240977
+        outSlope: -.542289376
+        tangentMode: 1
+      - time: .799970984
+        value: .0950573534
+        inSlope: .487613142
+        outSlope: 1.4141947
+        tangentMode: 1
+      - time: 1
+        value: 1
+        inSlope: 4.15525913
+        outSlope: 4.15525913
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 4
+    m_bApplyOption: 00000001
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 0}
+    m_nTag: 35
+    m_nSortGroup: 3
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -4.60621881
+        outSlope: -4.60621881
+        tangentMode: 0
+      - time: .500820339
+        value: .00392228365
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 4.15525913
+        outSlope: 4.15525913
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 4
+    m_bApplyOption: 00000001
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 0}
+    m_nTag: 36
+    m_nSortGroup: 3
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .120853081
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .500820339
+        value: .00392228365
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 4
+    m_bApplyOption: 00000001
+    m_bRecursively: 0
+    m_fValueScale: 1
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 0}
+    m_nTag: 37
+    m_nSortGroup: 3
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 0
+        inSlope: -2
+        outSlope: -2
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 3
+    m_bApplyOption: 01000101
+    m_bRecursively: 0
+    m_fValueScale: 10
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 38
+    m_nSortGroup: 3
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .448687643
+        value: .137423515
+        inSlope: -1.06802285
+        outSlope: -1.06802285
+        tangentMode: 0
+      - time: 1
+        value: .00755685568
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 3
+    m_bApplyOption: 00010001
+    m_bRecursively: 0
+    m_fValueScale: 5
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 39
+    m_nSortGroup: 3
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -1
+        outSlope: -1
+        tangentMode: 10
+      - time: 1
+        value: 0
+        inSlope: -1
+        outSlope: -1
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 3
+    m_bApplyOption: 01000101
+    m_bRecursively: 0
+    m_fValueScale: 10
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 40
+    m_nSortGroup: 3
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -4.39829731
+        outSlope: -4.39829731
+        tangentMode: 10
+      - time: .198667347
+        value: .126201987
+        inSlope: -.199669272
+        outSlope: -.199669272
+        tangentMode: 0
+      - time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 3
+    m_bApplyOption: 01000101
+    m_bRecursively: 0
+    m_fValueScale: 10
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 41
+    m_nSortGroup: 3
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .446317971
+        value: .119791277
+        inSlope: -1.06802285
+        outSlope: -1.06802285
+        tangentMode: 0
+      - time: 1
+        value: -.130982161
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 3
+    m_bApplyOption: 00010001
+    m_bRecursively: 0
+    m_fValueScale: 5
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 42
+    m_nSortGroup: 3
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  - m_bEnabled: 1
+    m_CurveName: 
+    m_AniCurve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -2
+        outSlope: -2
+        tangentMode: 10
+      - time: 1
+        value: -1
+        inSlope: -2
+        outSlope: -2
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    m_ApplyType: 3
+    m_bApplyOption: 01000101
+    m_bRecursively: 0
+    m_fValueScale: 10
+    m_FromColor: {x: 1, y: 1, z: 1, w: 1}
+    m_ToColor: {x: 1, y: 1, z: 1, w: 1}
+    m_nTag: 43
+    m_nSortGroup: 3
+    m_OriginalValue: {x: 0, y: 0, z: 0, w: 0}
+    m_BeforeValue: {x: 0, y: 0, z: 0, w: 0}
+    m_ChildOriginalColorValues: []
+    m_ChildBeforeColorValues: []
+  m_fDelayTime: 0
+  m_fDurationTime: .600000024
+  m_bAutoDestruct: 1
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100014}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
+--- !u!1002 &100100001
+EditorExtensionImpl:
+  serializedVersion: 6

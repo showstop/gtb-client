@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Txt_Win
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.32055092, y: .116470337, z: -18.004467}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b488e2fad7816d449c546904fad79d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteSheetMaterial: {fileID: 2100000, guid: 98e9b9ba3c0162c4fa156aa4da2c1ed3, type: 2}
+  spriteCount: 40
+  uvAnimationTileX: 8
+  uvAnimationTileY: 5
+  framesPerSecond: 25
+  sizeStart: {x: 1, y: 1, z: 0}
+  sizeEnd: {x: 1, y: 1, z: 0}
+  randomRotation: 0
+  rotationStart: 0
+  rotationEnd: 0
+  isOneShot: 1
+  life: 0
+  billboarding: 0
+  addLightEffect: 0
+  lightRange: 0
+  lightColor: {r: 0, g: 0, b: 0, a: 0}
+  lightFadeSpeed: 1
+  addColorEffect: 0
+  colorStart: {r: .880596995, g: .111717544, b: .111717544, a: 1}
+  colorEnd: {r: .188822061, g: .925373137, b: .0759634599, a: 1}
+  foldOut: 1
+  offset: {x: 8.44152641, y: -5.46000004, z: 1.27999973}
+  waittingTime: 0
+  copy: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,1129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="Car.Acceleration" xml:space="preserve">
+		<value>ACC</value>
+	</data>
+	<data name="Car.Amber" xml:space="preserve">
+		<value>Amber</value>
+	</data>
+	<data name="Car.Battery" xml:space="preserve">
+		<value>Battery</value>
+	</data>
+	<data name="Car.BatteryDesc" xml:space="preserve">
+		<value>HP is responsible for parts of the vehicle, \ n a good battery will increase the fitness of the vehicle, the more you use \ n.</value>
+	</data>
+	<data name="Car.BodyKit" xml:space="preserve">
+		<value>BodyKit</value>
+	</data>
+	<data name="Car.BodyKitDesc" xml:space="preserve">
+		<value>The strength of the vehicle is responsible for the more use a good body kit parts with n \ n vehicle collision damage increases.</value>
+	</data>
+	<data name="Car.Bruner" xml:space="preserve">
+		<value>Bruner</value>
+	</data>
+	<data name="Car.Buggy" xml:space="preserve">
+		<value>Buggy</value>
+	</data>
+	<data name="Car.Closer" xml:space="preserve">
+		<value>Closer</value>
+	</data>
+	<data name="Car.Collin" xml:space="preserve">
+		<value>Collin</value>
+	</data>
+	<data name="Car.Formula" xml:space="preserve">
+		<value>Formula</value>
+	</data>
+	<data name="Car.HP" xml:space="preserve">
+		<value>HP</value>
+	</data>
+	<data name="Car.Loco" xml:space="preserve">
+		<value>Loco</value>
+	</data>
+	<data name="Car.Mighty" xml:space="preserve">
+		<value>Mighty</value>
+	</data>
+	<data name="Car.MiniCoop" xml:space="preserve">
+		<value>MiniCoop</value>
+	</data>
+	<data name="Car.Motor" xml:space="preserve">
+		<value>Motor</value>
+	</data>
+	<data name="Car.MotorDesc" xml:space="preserve">
+		<value>HP is responsible for parts of the vehicle, \ n a good battery will increase the fitness of the vehicle, the more you use \ n.</value>
+	</data>
+	<data name="Car.NormalMaterial" xml:space="preserve">
+		<value>Normal</value>
+	</data>
+	<data name="Car.PartsTuning" xml:space="preserve">
+		<value>PartsTuning</value>
+	</data>
+	<data name="Car.PleaseEquipSpecialAbility" xml:space="preserve">
+		<value>Please Equip
+Special Ability</value>
+	</data>
+	<data name="Car.Poli" xml:space="preserve">
+		<value>Poli</value>
+	</data>
+	<data name="Car.Power" xml:space="preserve">
+		<value>POW</value>
+	</data>
+	<data name="Car.Shark" xml:space="preserve">
+		<value>Shark</value>
+	</data>
+	<data name="Car.Skill" xml:space="preserve">
+		<value>Skill</value>
+	</data>
+	<data name="Car.SpecialAbility.AutoCharge" xml:space="preserve">
+		<value>AutoCharge</value>
+	</data>
+	<data name="Car.SpecialAbility.AutoChargeDesc" xml:space="preserve">
+		<value>Every {0}m
+ restore 1 HP</value>
+	</data>
+	<data name="Car.SpecialAbility.CanBuyOtherSlotOpen" xml:space="preserve">
+		<value>{0} level available for purchase</value>
+	</data>
+	<data name="Car.SpecialAbility.LevelUp" xml:space="preserve">
+		<value>LevelUp</value>
+	</data>
+	<data name="Car.SpecialAbility.LuckyDice" xml:space="preserve">
+		<value>LuckyDice</value>
+	</data>
+	<data name="Car.SpecialAbility.LuckyDiceDesc" xml:space="preserve">
+		<value>Every {0}m
+ restore 1 HP</value>
+	</data>
+	<data name="Car.SpecialAbility.MultiTools" xml:space="preserve">
+		<value>MultiTools</value>
+	</data>
+	<data name="Car.SpecialAbility.MultiToolsDesc" xml:space="preserve">
+		<value>Every {0}m
+ restore 1 HP</value>
+	</data>
+	<data name="Car.SpecialAbility.PowerSteering" xml:space="preserve">
+		<value>PowerSteering</value>
+	</data>
+	<data name="Car.SpecialAbility.PowerSteeringDesc" xml:space="preserve">
+		<value>Every {0}m
+ restore 1 HP</value>
+	</data>
+	<data name="Car.SpecialAbility.RearSensor" xml:space="preserve">
+		<value>RearSensor</value>
+	</data>
+	<data name="Car.SpecialAbility.RearSensorDesc" xml:space="preserve">
+		<value>Every {0}m
+ restore 1 HP</value>
+	</data>
+	<data name="Car.SpecialAbility.ResearchBumper" xml:space="preserve">
+		<value>ResearchBumper</value>
+	</data>
+	<data name="Car.SpecialAbility.ResearchBumperDesc" xml:space="preserve">
+		<value>Every {0}m
+ restore 1 HP</value>
+	</data>
+	<data name="Car.SpecialAbility.ResearchGunPowder" xml:space="preserve">
+		<value>ResearchGunPowder</value>
+	</data>
+	<data name="Car.SpecialAbility.ResearchGunPowderDesc" xml:space="preserve">
+		<value>Every {0}m
+ restore 1 HP</value>
+	</data>
+	<data name="Car.SpecialAbility.ShouldUpgrade" xml:space="preserve">
+		<value>Should Upgrade &lt;color=yellow&gt;{0}&lt;/color&gt;?</value>
+	</data>
+	<data name="Car.SpecialAbility.Slot2" xml:space="preserve">
+		<value>SpecialAbility Slot</value>
+	</data>
+	<data name="Car.SpecialAbility.Slot3" xml:space="preserve">
+		<value>SpecialAbility Slot</value>
+	</data>
+	<data name="Car.SpecialAbility.Stacker" xml:space="preserve">
+		<value>Stacker</value>
+	</data>
+	<data name="Car.SpecialAbility.StackerDesc" xml:space="preserve">
+		<value>Every {0}m
+ restore 1 HP</value>
+	</data>
+	<data name="Car.SpecialAbility.Upgrade" xml:space="preserve">
+		<value>Upgrade SpecialAbility</value>
+	</data>
+	<data name="Car.SpecialMaterial" xml:space="preserve">
+		<value>Special</value>
+	</data>
+	<data name="Car.Speed" xml:space="preserve">
+		<value>SPD</value>
+	</data>
+	<data name="Car.Supark" xml:space="preserve">
+		<value>Supark</value>
+	</data>
+	<data name="Car.Suspension" xml:space="preserve">
+		<value>Sespension</value>
+	</data>
+	<data name="Car.SuspensionDesc" xml:space="preserve">
+		<value>HP is responsible for parts of the vehicle, \ n a good battery will increase the fitness of the vehicle, the more you use \ n.</value>
+	</data>
+	<data name="Car.Swagger" xml:space="preserve">
+		<value>Swagger</value>
+	</data>
+	<data name="Car.Turbin" xml:space="preserve">
+		<value>Turbin</value>
+	</data>
+	<data name="Format.CarPackage" xml:space="preserve">
+		<value>{0} Package</value>
+	</data>
+	<data name="Format.FixedAmountPackage" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Format.PackageGiveCacheDaily" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Format.PackageGiveCacheImmediately" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Format.TimeRemainUntilProductUpdate" xml:space="preserve">
+		<value>&lt;color=#ffff00ff&gt;{0} remaining&lt;/color=#ffff00ff&gt; until product updates</value>
+	</data>
+	<data name="GameMode.GrandPrix" xml:space="preserve">
+		<value>GrandPrix</value>
+	</data>
+	<data name="GameMode.QuickMatch" xml:space="preserve">
+		<value>QuickMatch</value>
+	</data>
+	<data name="Glossacry.LevelUp" xml:space="preserve">
+		<value>LevelUp</value>
+	</data>
+	<data name="Glossary.Ability" xml:space="preserve">
+		<value>Ability</value>
+	</data>
+	<data name="Glossary.Advertise" xml:space="preserve">
+		<value>Advertise</value>
+	</data>
+	<data name="Glossary.Attend" xml:space="preserve">
+		<value>Attend</value>
+	</data>
+	<data name="Glossary.AttendCheck" xml:space="preserve">
+		<value>Attendance Check</value>
+	</data>
+	<data name="Glossary.Cache" xml:space="preserve">
+		<value>Cache</value>
+	</data>
+	<data name="Glossary.Cancel" xml:space="preserve">
+		<value>Cancel</value>
+	</data>
+	<data name="Glossary.CarPieceSelectionCard" xml:space="preserve">
+		<value>Car Piece Selection Card</value>
+	</data>
+	<data name="Glossary.Complete" xml:space="preserve">
+		<value>Complete</value>
+	</data>
+	<data name="Glossary.Confirm" xml:space="preserve">
+		<value>Confirm</value>
+	</data>
+	<data name="Glossary.ElapsedTime" xml:space="preserve">
+		<value>Elapsed Time</value>
+	</data>
+	<data name="Glossary.EstimatedTime" xml:space="preserve">
+		<value>Estimated Time</value>
+	</data>
+	<data name="Glossary.Event" xml:space="preserve">
+		<value>Event</value>
+	</data>
+	<data name="Glossary.Finish" xml:space="preserve">
+		<value>Finish</value>
+	</data>
+	<data name="Glossary.GameMoney" xml:space="preserve">
+		<value>Gold</value>
+	</data>
+	<data name="Glossary.Garage" xml:space="preserve">
+		<value>Garage</value>
+	</data>
+	<data name="Glossary.GetReward" xml:space="preserve">
+		<value>Get!</value>
+	</data>
+	<data name="Glossary.Level" xml:space="preserve">
+		<value>Level</value>
+	</data>
+	<data name="Glossary.Lobby" xml:space="preserve">
+		<value>Lobby</value>
+	</data>
+	<data name="Glossary.Mail" xml:space="preserve">
+		<value>Mail</value>
+	</data>
+	<data name="Glossary.Make" xml:space="preserve">
+		<value>Make</value>
+	</data>
+	<data name="Glossary.MaxLevel" xml:space="preserve">
+		<value>MaxLevel</value>
+	</data>
+	<data name="Glossary.Medal" xml:space="preserve">
+		<value>Medal</value>
+	</data>
+	<data name="Glossary.MonthlyAttendanceReward" xml:space="preserve">
+		<value>Monthly Attendance Reward</value>
+	</data>
+	<data name="Glossary.Next" xml:space="preserve">
+		<value>Next</value>
+	</data>
+	<data name="Glossary.Notice" xml:space="preserve">
+		<value>Notice</value>
+	</data>
+	<data name="Glossary.OK" xml:space="preserve">
+		<value>OK</value>
+	</data>
+	<data name="Glossary.Progress" xml:space="preserve">
+		<value>Progress</value>
+	</data>
+	<data name="Glossary.Quest" xml:space="preserve">
+		<value>Quest</value>
+	</data>
+	<data name="Glossary.Register" xml:space="preserve">
+		<value>Register</value>
+	</data>
+	<data name="Glossary.RequestReward" xml:space="preserve">
+		<value>Get!</value>
+	</data>
+	<data name="Glossary.Select" xml:space="preserve">
+		<value>Select</value>
+	</data>
+	<data name="Glossary.Setting" xml:space="preserve">
+		<value>Setting</value>
+	</data>
+	<data name="Glossary.Shop" xml:space="preserve">
+		<value>Shop</value>
+	</data>
+	<data name="Glossary.Skip" xml:space="preserve">
+		<value>Skip</value>
+	</data>
+	<data name="Glossary.Start" xml:space="preserve">
+		<value>Start</value>
+	</data>
+	<data name="Glossary.Ticket" xml:space="preserve">
+		<value>Ticket</value>
+	</data>
+	<data name="Glossary.Upgrade" xml:space="preserve">
+		<value>Upgrade</value>
+	</data>
+	<data name="GrandPrix.Below" xml:space="preserve">
+		<value>Below</value>
+	</data>
+	<data name="GrandPrix.Demote" xml:space="preserve">
+		<value>Demote</value>
+	</data>
+	<data name="GrandPrix.First" xml:space="preserve">
+		<value>1st</value>
+	</data>
+	<data name="GrandPrix.GPPoint" xml:space="preserve">
+		<value>GPPoint</value>
+	</data>
+	<data name="GrandPrix.LeagueInfo" xml:space="preserve">
+		<value>League Info</value>
+	</data>
+	<data name="GrandPrix.LessThan50Percent" xml:space="preserve">
+		<value>Less than 50%</value>
+	</data>
+	<data name="GrandPrix.ParticipationCount" xml:space="preserve">
+		<value />
+	</data>
+	<data name="GrandPrix.Placing" xml:space="preserve">
+		<value />
+	</data>
+	<data name="GrandPrix.Point" xml:space="preserve">
+		<value>Point</value>
+	</data>
+	<data name="GrandPrix.Promote" xml:space="preserve">
+		<value>Promote</value>
+	</data>
+	<data name="GrandPrix.Ranking" xml:space="preserve">
+		<value>Ranking</value>
+	</data>
+	<data name="GrandPrix.RepeatRewardList" xml:space="preserve">
+		<value>Repeat Reward List</value>
+	</data>
+	<data name="GrandPrix.RepeatRewardOneOfList" xml:space="preserve">
+		<value>One of above list</value>
+	</data>
+	<data name="GrandPrix.SeasonReward" xml:space="preserve">
+		<value>SeasonReward</value>
+	</data>
+	<data name="GrandPrix.SeasonRewardList" xml:space="preserve">
+		<value>Season Reward List</value>
+	</data>
+	<data name="GrandPrix.SecondToTen" xml:space="preserve">
+		<value>2 ~ 10</value>
+	</data>
+	<data name="GrandPrix.Top" xml:space="preserve">
+		<value>Top</value>
+	</data>
+	<data name="GrandPrix.Top10Percent" xml:space="preserve">
+		<value>Top 10%</value>
+	</data>
+	<data name="GrandPrix.Top30Percent" xml:space="preserve">
+		<value>Top 30%</value>
+	</data>
+	<data name="GrandPrix.Top50Percent" xml:space="preserve">
+		<value>Top 50%</value>
+	</data>
+	<data name="Intro.CheckVersion" xml:space="preserve">
+		<value>Verifying a version of game...</value>
+	</data>
+	<data name="Intro.DownloadUpdate" xml:space="preserve">
+		<value>Downloading Updates...</value>
+	</data>
+	<data name="Intro.LoadData" xml:space="preserve">
+		<value>Loading Data...</value>
+	</data>
+	<data name="Intro.TouchStartGame" xml:space="preserve">
+		<value>Touch To Start Game</value>
+	</data>
+	<data name="Login.FaceBook" xml:space="preserve">
+		<value>Login with FaceBook</value>
+	</data>
+	<data name="Login.Guest" xml:space="preserve">
+		<value>Guest Login</value>
+	</data>
+	<data name="Medal.Alchemist" xml:space="preserve">
+		<value>Alchemist</value>
+	</data>
+	<data name="Medal.AlchemistDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Always2ndPlace" xml:space="preserve">
+		<value>Always 2nd Place</value>
+	</data>
+	<data name="Medal.Always2ndPlaceDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Always3rdPlace" xml:space="preserve">
+		<value>Always 3rd Place</value>
+	</data>
+	<data name="Medal.Always3rdPlaceDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Antique" xml:space="preserve">
+		<value>Antique</value>
+	</data>
+	<data name="Medal.AntiqueDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.APieceOfCake" xml:space="preserve">
+		<value>A Piece Of Cake</value>
+	</data>
+	<data name="Medal.APieceOfCakeDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.BeginnerLicense" xml:space="preserve">
+		<value>Beginner License</value>
+	</data>
+	<data name="Medal.BeginnerLicenseDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.BrandNew" xml:space="preserve">
+		<value>Brand New</value>
+	</data>
+	<data name="Medal.BrandNewDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.BumperCar" xml:space="preserve">
+		<value>Bumper Car</value>
+	</data>
+	<data name="Medal.BumperCarDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.CatchMeIfYouCan" xml:space="preserve">
+		<value>Catch Me If You Can</value>
+	</data>
+	<data name="Medal.CatchMeIfYouCanDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Chase" xml:space="preserve">
+		<value>Chase</value>
+	</data>
+	<data name="Medal.ChaseDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.CheerUp" xml:space="preserve">
+		<value>Cheer Up!</value>
+	</data>
+	<data name="Medal.CheerUpDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Collector" xml:space="preserve">
+		<value>Collector</value>
+	</data>
+	<data name="Medal.CollectorDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Defender" xml:space="preserve">
+		<value>Defender</value>
+	</data>
+	<data name="Medal.DefenderDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Destroyer" xml:space="preserve">
+		<value>Destroyer</value>
+	</data>
+	<data name="Medal.DestroyerDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Drown" xml:space="preserve">
+		<value>Drown</value>
+	</data>
+	<data name="Medal.DrownDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.ElectricShock" xml:space="preserve">
+		<value>Electric Shock</value>
+	</data>
+	<data name="Medal.ElectricShockDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.GetMedalReward" xml:space="preserve">
+		<value>Obtain a compensation for medal.</value>
+	</data>
+	<data name="Medal.GetOut" xml:space="preserve">
+		<value>Get Out!</value>
+	</data>
+	<data name="Medal.GetOutDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Gosh" xml:space="preserve">
+		<value>Gosh!</value>
+	</data>
+	<data name="Medal.GoshDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Grenade" xml:space="preserve">
+		<value>Grenade</value>
+	</data>
+	<data name="Medal.GrenadeDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.GTB1License" xml:space="preserve">
+		<value>GTB-1 License</value>
+	</data>
+	<data name="Medal.GTB1LicenseDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.GTB2License" xml:space="preserve">
+		<value>GTB-2 License</value>
+	</data>
+	<data name="Medal.GTB2LicenseDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.HereWeGo" xml:space="preserve">
+		<value>Here We Go!</value>
+	</data>
+	<data name="Medal.HereWeGoDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Magician" xml:space="preserve">
+		<value>Magician</value>
+	</data>
+	<data name="Medal.MagicianDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Master" xml:space="preserve">
+		<value>Master</value>
+	</data>
+	<data name="Medal.MasterDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Missile" xml:space="preserve">
+		<value>Missile</value>
+	</data>
+	<data name="Medal.MissileDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.MrFreeze" xml:space="preserve">
+		<value>Mr. Freeze</value>
+	</data>
+	<data name="Medal.MrFreezeDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.NuclearBomb" xml:space="preserve">
+		<value>Nuclear Bomb</value>
+	</data>
+	<data name="Medal.NuclearBombDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.OneShotOneKill" xml:space="preserve">
+		<value>One Shot One Kill!</value>
+	</data>
+	<data name="Medal.OneShotOneKillDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Ordinary" xml:space="preserve">
+		<value>Ordinary</value>
+	</data>
+	<data name="Medal.OrdinaryDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Overwhelm" xml:space="preserve">
+		<value>Overwhelm</value>
+	</data>
+	<data name="Medal.OverwhelmDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Poor" xml:space="preserve">
+		<value>Poor</value>
+	</data>
+	<data name="Medal.PoorDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Richman" xml:space="preserve">
+		<value>Richman</value>
+	</data>
+	<data name="Medal.RichmanDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Rookie" xml:space="preserve">
+		<value>Rookie</value>
+	</data>
+	<data name="Medal.RookieDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.RunawayTrain" xml:space="preserve">
+		<value>Runaway Train</value>
+	</data>
+	<data name="Medal.RunawayTrainDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Safety" xml:space="preserve">
+		<value>Safety</value>
+	</data>
+	<data name="Medal.SafetyDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.SpeedMania" xml:space="preserve">
+		<value>Speed Mania</value>
+	</data>
+	<data name="Medal.SpeedManiaDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Stop" xml:space="preserve">
+		<value>Stop!</value>
+	</data>
+	<data name="Medal.StopDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.SuperLicense" xml:space="preserve">
+		<value>Super License</value>
+	</data>
+	<data name="Medal.SuperLicenseDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Surprise" xml:space="preserve">
+		<value>Surprise!</value>
+	</data>
+	<data name="Medal.SurpriseDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.TimeTraveler" xml:space="preserve">
+		<value>Time Traveler</value>
+	</data>
+	<data name="Medal.TimeTravelerDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Toddler" xml:space="preserve">
+		<value>Toddler</value>
+	</data>
+	<data name="Medal.ToddlerDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Tranquility" xml:space="preserve">
+		<value>Tranquility</value>
+	</data>
+	<data name="Medal.TranquilityDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Used" xml:space="preserve">
+		<value>Used</value>
+	</data>
+	<data name="Medal.UsedDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.Veteran" xml:space="preserve">
+		<value>Veteran</value>
+	</data>
+	<data name="Medal.VeteranDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Medal.WellConnected" xml:space="preserve">
+		<value>WellConnected</value>
+	</data>
+	<data name="Medal.WellConnectedDesc" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Setting.AIMatching" xml:space="preserve">
+		<value>AI Matching</value>
+	</data>
+	<data name="Setting.BGM" xml:space="preserve">
+		<value>BGM</value>
+	</data>
+	<data name="Setting.Chinese" xml:space="preserve">
+		<value>中國語</value>
+	</data>
+	<data name="Setting.EffectSound" xml:space="preserve">
+		<value>Effect Sound</value>
+	</data>
+	<data name="Setting.English" xml:space="preserve">
+		<value>English</value>
+	</data>
+	<data name="Setting.Espanol" xml:space="preserve">
+		<value>Espanol</value>
+	</data>
+	<data name="Setting.FacebookLoginReward" xml:space="preserve">
+		<value>can get &lt;size=24&gt;&lt;color=#ffff00ff&gt;100&lt;/color&gt;&lt;/size&gt; cash when login with facebook!</value>
+	</data>
+	<data name="Setting.German" xml:space="preserve">
+		<value>German</value>
+	</data>
+	<data name="Setting.Japanese" xml:space="preserve">
+		<value>日本語</value>
+	</data>
+	<data name="Setting.Korean" xml:space="preserve">
+		<value>한국어</value>
+	</data>
+	<data name="Setting.Language" xml:space="preserve">
+		<value>Language</value>
+	</data>
+	<data name="Setting.PushAlarm" xml:space="preserve">
+		<value>Push Alarm</value>
+	</data>
+	<data name="Shop.BlackMarket" xml:space="preserve">
+		<value>Black Market</value>
+	</data>
+	<data name="Shop.Buy" xml:space="preserve">
+		<value>Buy</value>
+	</data>
+	<data name="Shop.BuyItem" xml:space="preserve">
+		<value>Are you sure you want to buy?</value>
+	</data>
+	<data name="Shop.CacheBonus" xml:space="preserve">
+		<value>Cache Bonus</value>
+	</data>
+	<data name="Shop.CacheShop" xml:space="preserve">
+		<value>Cache Shop</value>
+	</data>
+	<data name="Shop.CarPieceGacha" xml:space="preserve">
+		<value>Car Piece Gacha</value>
+	</data>
+	<data name="Shop.CarPieceGachaExplanation" xml:space="preserve">
+		<value>Acquired the pieces that you need to upgrade your vehicle.</value>
+	</data>
+	<data name="Shop.CashProduct1Name" xml:space="preserve">
+		<value>300 Cash</value>
+	</data>
+	<data name="Shop.CashProduct2Name" xml:space="preserve">
+		<value>530 Cash</value>
+	</data>
+	<data name="Shop.CashProduct3Name" xml:space="preserve">
+		<value>1,100 Cash</value>
+	</data>
+	<data name="Shop.CashProduct4Name" xml:space="preserve">
+		<value>3,390 Cash</value>
+	</data>
+	<data name="Shop.CashProduct5Name" xml:space="preserve">
+		<value>5,750 Cash</value>
+	</data>
+	<data name="Shop.CashProduct6Name" xml:space="preserve">
+		<value>12,200 Cash</value>
+	</data>
+	<data name="Shop.ChargeCount" xml:space="preserve">
+		<value>Charge</value>
+	</data>
+	<data name="Shop.EveryThingAtOnce" xml:space="preserve">
+		<value>EveryThing At Once!</value>
+	</data>
+	<data name="Shop.Gacha" xml:space="preserve">
+		<value>Gacha</value>
+	</data>
+	<data name="Shop.GachaOnce" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Shop.GachaShop" xml:space="preserve">
+		<value>Gacha Shop</value>
+	</data>
+	<data name="Shop.GachaTenTimes" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Shop.GameMoneyShop" xml:space="preserve">
+		<value>Gold Shop</value>
+	</data>
+	<data name="Shop.GoldBonus" xml:space="preserve">
+		<value>Gold Bonus</value>
+	</data>
+	<data name="Shop.GoldProduct1Name" xml:space="preserve">
+		<value>10,000 Gold</value>
+	</data>
+	<data name="Shop.GoldProduct2Name" xml:space="preserve">
+		<value>33,000 Gold</value>
+	</data>
+	<data name="Shop.GoldProduct3Name" xml:space="preserve">
+		<value>56,000 Gold</value>
+	</data>
+	<data name="Shop.GoldProduct4Name" xml:space="preserve">
+		<value>114,000 Gold</value>
+	</data>
+	<data name="Shop.GoldProduct5Name" xml:space="preserve">
+		<value>348,000 Gold</value>
+	</data>
+	<data name="Shop.GoldProduct6Name" xml:space="preserve">
+		<value>590,000 Gold</value>
+	</data>
+	<data name="Shop.GrandPrixTicket" xml:space="preserve">
+		<value>GrandPrix Ticket</value>
+	</data>
+	<data name="Shop.GrandPrixTicketProductExplanation" xml:space="preserve">
+		<value>Only the State of charge is exhausted.
+5-full charge.
+Only charge 10 times a day.</value>
+	</data>
+	<data name="Shop.GrandPrixTicketProductName" xml:space="preserve">
+		<value>GranPrix Ticket x 5</value>
+	</data>
+	<data name="Shop.JackInTheBox" xml:space="preserve">
+		<value>Jack In The Box</value>
+	</data>
+	<data name="Shop.MaterialGachaExplanation" xml:space="preserve">
+		<value>With the acquisition of General materials needed for Tuning Parts.</value>
+	</data>
+	<data name="Shop.NormalBox" xml:space="preserve">
+		<value>Normal Box</value>
+	</data>
+	<data name="Shop.NormalMaterialGacha" xml:space="preserve">
+		<value>Normal Material Gacha</value>
+	</data>
+	<data name="Shop.OpenBox" xml:space="preserve">
+		<value>Open</value>
+	</data>
+	<data name="Shop.Package" xml:space="preserve">
+		<value>Package</value>
+	</data>
+	<data name="Shop.PackageShop" xml:space="preserve">
+		<value>Package Shop</value>
+	</data>
+	<data name="Shop.QuickMatchTicketProduct1Name" xml:space="preserve">
+		<value>QuickMatch Battery x 5</value>
+	</data>
+	<data name="Shop.QuickMatchTicketProduct2Name" xml:space="preserve">
+		<value>QuickMatch Battery x 27</value>
+	</data>
+	<data name="Shop.QuickMatchTicketProduct3Name" xml:space="preserve">
+		<value>QuickMatch Battery x 55</value>
+	</data>
+	<data name="Shop.RareBox" xml:space="preserve">
+		<value>Rare Box</value>
+	</data>
+	<data name="Shop.RareMaterialGacha" xml:space="preserve">
+		<value>Rare Material Gacha</value>
+	</data>
+	<data name="Shop.RareMaterialGachaExplanation" xml:space="preserve">
+		<value>With the acquisition of advanced materials. probabilistic</value>
+	</data>
+	<data name="Shop.TicketBonus" xml:space="preserve">
+		<value>Ticket Bonus</value>
+	</data>
+	<data name="Shop.TicketShop" xml:space="preserve">
+		<value>Ticket Shop</value>
+	</data>
+	<data name="SpecialAbility.Equip" xml:space="preserve">
+		<value>Equip</value>
+	</data>
+	<data name="Tip.Tip01" xml:space="preserve">
+		<value>When the HP of car becomes 0, it stops for 1 second.</value>
+	</data>
+	<data name="Tip.Tip02" xml:space="preserve">
+		<value>You can get two item boxes at the same time by moving properly</value>
+	</data>
+	<data name="Tip.Tip03" xml:space="preserve">
+		<value>Max level of special ability 'Stacker' is 2.</value>
+	</data>
+	<data name="Tip.Tip04" xml:space="preserve">
+		<value>Reward card differ according to rank in quick match.</value>
+	</data>
+	<data name="Tip.Tip05" xml:space="preserve">
+		<value>Grand Prix ticket can be recharged only completely exhausted.</value>
+	</data>
+	<data name="Tip.Tip06" xml:space="preserve">
+		<value>You can earn additional rewards 
+when attend 28 consecutive days.</value>
+	</data>
+	<data name="Tip.Tip07" xml:space="preserve">
+		<value>Get medals by updating various records!</value>
+	</data>
+	<data name="Tip.Tip08" xml:space="preserve">
+		<value>Can change car before the start of the game.</value>
+	</data>
+	<data name="Tip.Tip09" xml:space="preserve">
+		<value>Can cause damage through collision with other cars.</value>
+	</data>
+	<data name="Tip.Tip10" xml:space="preserve">
+		<value>Special ability "STACKER" is based.</value>
+	</data>
+	<data name="TTIngame.HUD.Item" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTIngame.HUD.Pause" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTIngame.HUD.Rank" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTIngame.Notice.Ability" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTIngame.Notice.AbilityGet" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTIngame.Notice.AbilitySuccess" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTIngame.Notice.Collision" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTIngame.Notice.CollisionSuccess" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTIngame.Notice.HUD" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTIngame.Notice.Intro" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTIngame.Notice.Item" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTIngame.Notice.ItemGet" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTIngame.Notice.ItemSuccess" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTIngame.Notice.LaneChangeLeft" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTIngame.Notice.LaneChangeRight" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTIngame.Notice.LaneChangeSuccess" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTIngame.Notice.TutorialEnd" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTIngame.Skip.Notice" xml:space="preserve">
+		<value>Do you want to exit the tutorial?</value>
+	</data>
+	<data name="TTIngame.Title.Ability" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTIngame.Title.Collision" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTIngame.Title.HUD" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTIngame.Title.Intro" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTIngame.Title.Item" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTIngame.Title.LaneChange" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTIngame.Title.TutorialEnd" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTLobby.Bottom.Ability" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTLobby.Bottom.Garage" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTLobby.Bottom.Lobby" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTLobby.Bottom.Medal" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTLobby.Bottom.Shop" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTLobby.CarInfo" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTLobby.Left.Attend" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTLobby.Left.Event" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTLobby.Left.Quest" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTLobby.LicenseNotice" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTLobby.LicenseRegister" xml:space="preserve">
+		<value>License Register</value>
+	</data>
+	<data name="TTLobby.MatchText" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTLobby.Notice.Intro" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTLobby.Notice.Start" xml:space="preserve">
+		<value>		      ! Nice to meet you!
+Shall we play a Quickmatch once in a while?</value>
+	</data>
+	<data name="TTLobby.Notice.TutorialEnd" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTLobby.NoticePopup.Guide" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTLobby.Page.TopExplain" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTLobby.Right.Advertise" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTLobby.Right.Mail" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTLobby.Right.Setup" xml:space="preserve">
+		<value />
+	</data>
+	<data name="TTLobby.SelectCar" xml:space="preserve">
+		<value>Car Select</value>
+	</data>
+	<data name="TTLobby.SelectCar.Notice" xml:space="preserve">
+		<value>I'll give you one vehicle for play.
+Select from below!</value>
+	</data>
+	<data name="TTLobby.Skip.Guide" xml:space="preserve">
+		<value>Would you like to skip the Game Information Guide?</value>
+	</data>
+	<data name="TTLobby.Skip.PlayGuide" xml:space="preserve">
+		<value>Would you like to skip the Game Play Guide?</value>
+	</data>
+</root>

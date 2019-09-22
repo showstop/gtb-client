@@ -1,0 +1,258 @@
+fileFormatVersion: 2
+guid: e0eaae68bd7c42344a3b8fc9ad32acab
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: barricade_break
+    100002: barricade_break001
+    100004: barricade_break_002
+    100006: barricade_break_01
+    100008: //RootNode
+    100010: Object015
+    100012: Object016
+    100014: Object017
+    100016: Object018
+    100018: Object019
+    100020: Object020
+    100022: Object022
+    100024: Object023
+    100026: Object024
+    100028: Object025
+    100030: Object026
+    100032: Object027
+    100034: Object028
+    100036: Object029
+    100038: Object030
+    100040: Object031
+    100042: Object032
+    100044: Object033
+    400000: barricade_break
+    400002: barricade_break001
+    400004: barricade_break_002
+    400006: barricade_break_01
+    400008: //RootNode
+    400010: Object015
+    400012: Object016
+    400014: Object017
+    400016: Object018
+    400018: Object019
+    400020: Object020
+    400022: Object022
+    400024: Object023
+    400026: Object024
+    400028: Object025
+    400030: Object026
+    400032: Object027
+    400034: Object028
+    400036: Object029
+    400038: Object030
+    400040: Object031
+    400042: Object032
+    400044: Object033
+    2300000: barricade_break
+    2300002: barricade_break001
+    2300004: barricade_break_002
+    2300006: barricade_break_01
+    2300008: Object015
+    2300010: Object016
+    2300012: Object017
+    2300014: Object018
+    2300016: Object019
+    2300018: Object020
+    2300020: Object022
+    2300022: Object023
+    2300024: Object024
+    2300026: Object025
+    2300028: Object026
+    2300030: Object027
+    2300032: Object028
+    2300034: Object029
+    2300036: Object030
+    2300038: Object031
+    2300040: Object032
+    2300042: Object033
+    3300000: barricade_break
+    3300002: barricade_break001
+    3300004: barricade_break_002
+    3300006: barricade_break_01
+    3300008: Object015
+    3300010: Object016
+    3300012: Object017
+    3300014: Object018
+    3300016: Object019
+    3300018: Object020
+    3300020: Object022
+    3300022: Object023
+    3300024: Object024
+    3300026: Object025
+    3300028: Object026
+    3300030: Object027
+    3300032: Object028
+    3300034: Object029
+    3300036: Object030
+    3300038: Object031
+    3300040: Object032
+    3300042: Object033
+    4300000: barricade_break
+    4300002: barricade_break_01
+    4300004: Object015
+    4300006: Object016
+    4300008: Object017
+    4300010: Object018
+    4300012: Object019
+    4300014: Object020
+    4300016: Object022
+    4300018: Object023
+    4300020: Object024
+    4300022: barricade_break001
+    4300024: barricade_break_002
+    4300026: Object025
+    4300028: Object026
+    4300030: Object027
+    4300032: Object028
+    4300034: Object029
+    4300036: Object030
+    4300038: Object031
+    4300040: Object032
+    4300042: Object033
+    7400000: break
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: break
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: barricade_break
+        weight: 1
+      - path: barricade_break001
+        weight: 1
+      - path: barricade_break_01
+        weight: 1
+      - path: barricade_break_002
+        weight: 1
+      - path: Object015
+        weight: 1
+      - path: Object016
+        weight: 1
+      - path: Object017
+        weight: 1
+      - path: Object018
+        weight: 1
+      - path: Object019
+        weight: 1
+      - path: Object020
+        weight: 1
+      - path: Object022
+        weight: 1
+      - path: Object023
+        weight: 1
+      - path: Object024
+        weight: 1
+      - path: Object025
+        weight: 1
+      - path: Object026
+        weight: 1
+      - path: Object027
+        weight: 1
+      - path: Object028
+        weight: 1
+      - path: Object029
+        weight: 1
+      - path: Object030
+        weight: 1
+      - path: Object031
+        weight: 1
+      - path: Object032
+        weight: 1
+      - path: Object033
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
